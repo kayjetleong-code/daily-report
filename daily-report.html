@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Report</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #f2f2f7;
+      min-height: 100vh;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      padding: 48px 16px 80px;
+    }
+    .container { width: 100%; max-width: 520px; }
+
+    .header { text-align: center; margin-bottom: 28px; }
+    .header .label {
+      font-size: 11px; font-weight: 700;
+      letter-spacing: 0.12em; color: #8e8e93; text-transform: uppercase;
+    }
+    .header .date {
+      font-size: 30px; font-weight: 700;
+      color: #1c1c1e; margin-top: 4px; letter-spacing: -0.5px;
+    }
+
+    .add-btn {
+      display: block; width: 100%; padding: 15px;
+      background: #1c1c1e; color: #fff; border: none;
+      border-radius: 12px; font-size: 15px; font-weight: 600;
+      cursor: pointer; transition: opacity 0.15s;
+    }
+    .add-btn:hover { opacity: 0.8; }
+
+    .form { display: none; margin-top: 20px; }
+    .form.visible { display: block; }
+
+    .card { background: #fff; border-radius: 12px; padding: 16px; margin-bottom: 12px; }
+
+    .field { margin-bottom: 16px; }
+    .field:last-child { margin-bottom: 0; }
+
+    label {
+      display: block; font-size: 11px; font-weight: 700;
+      letter-spacing: 0.08em; color: #8e8e93;
+      text-transform: uppercase; margin-bottom: 6px;
+    }
+    input[type="text"], input[type="number"], input[type="password"], textarea {
+      width: 100%; padding: 10px 12px;
+      border: 1.5px solid #e5e5ea; border-radius: 8px;
+      font-size: 14px; font-family: inherit;
+      color: #1c1c1e; background: #fafafa; outline: none;
+      transition: border-color 0.15s;
+    }
+    input:focus, textarea:focus { border-color: #1c1c1e; background: #fff; }
+    textarea { resize: vertical; min-height: 70px; line-height: 1.5; }
+    .hint { font-size: 11px; color: #aeaeb2; margin-top: 4px; }
+
+    /* Metrics */
+    .metric-row {
+      display: flex; gap: 8px; align-items: center; margin-bottom: 8px;
+    }
+    .metric-row input[type="text"] { flex: 2; }
+    .metric-row input[type="number"] { flex: 1; text-align: center; }
+    .metric-row .remove-btn {
+      flex-shrink: 0; width: 28px; height: 28px;
+      background: #ff3b30; color: #fff; border: none;
+      border-radius: 6px; font-size: 16px; line-height: 1;
+      cursor: pointer; display: flex; align-items: center; justify-content: center;
+    }
+    .add-metric-btn {
+      background: none; border: 1.5px dashed #c7c7cc;
+      border-radius: 8px; padding: 8px 12px;
+      font-size: 13px; color: #8e8e93; cursor: pointer;
+      width: 100%; margin-top: 2px; transition: border-color 0.15s;
+    }
+    .add-metric-btn:hover { border-color: #1c1c1e; color: #1c1c1e; }
+
+    .btn-row { display: flex; gap: 10px; margin-top: 4px; }
+    .save-btn {
+      flex: 1; padding: 15px;
+      background: #007aff; color: #fff; border: none;
+      border-radius: 12px; font-size: 15px; font-weight: 600;
+      cursor: pointer; transition: opacity 0.15s;
+    }
+    .save-btn:hover { opacity: 0.85; }
+    .save-btn:disabled { opacity: 0.5; cursor: default; }
+    .download-btn {
+      flex: 1; padding: 15px;
+      background: #34c759; color: #fff; border: none;
+      border-radius: 12px; font-size: 15px; font-weight: 600;
+      cursor: pointer; transition: opacity 0.15s;
+    }
+    .download-btn:hover { opacity: 0.85; }
+
+    .disconnect-btn {
+      background: none; border: none; color: #c7c7cc;
+      font-size: 11px; cursor: pointer; padding: 0 0 0 8px;
+      font-family: inherit; letter-spacing: 0.08em; text-transform: uppercase;
+    }
+    .disconnect-btn:hover { color: #ff3b30; }
+  </style>
+</head>
+<body>
+
+  <!-- Setup screen -->
+  <div id="setupScreen" class="container" style="display:none">
+    <div class="header">
+      <div class="label">Daily Report</div>
+      <div class="date" style="font-size:18px; margin-top:8px; color:#8e8e93;">Connect Notion</div>
+    </div>
+    <div class="card">
+      <div class="field">
+        <label>Integration Token</label>
+        <input type="password" id="tokenInput" placeholder="secret_... or ntn_...">
+        <div class="hint">从 notion.so/my-integrations 复制 — 只存在本机，不写入文件</div>
+      </div>
+      <button class="save-btn" onclick="connectToken()" style="width:100%;margin-top:4px">Connect</button>
+    </div>
+  </div>
+
+  <!-- Main app -->
+  <div id="mainContainer" class="container" style="display:none">
+    <div class="header">
+      <div class="label">
+        Daily Report
+        <button class="disconnect-btn" onclick="resetToken()">disconnect</button>
+      </div>
+      <div class="date" id="displayDate"></div>
+    </div>
+
+    <button class="add-btn" id="addBtn" onclick="showForm()">+ Add Report</button>
+
+    <div class="form" id="reportForm">
+      <div class="card">
+        <div class="field">
+          <label>Name</label>
+          <input type="text" id="nameInput" placeholder="e.g. Alex">
+        </div>
+        <div class="field">
+          <label>Done</label>
+          <textarea id="doneInput" placeholder="One item per line"></textarea>
+          <div class="hint">Each line → joined with ; in output</div>
+        </div>
+        <div class="field">
+          <label>In Progress</label>
+          <textarea id="inProgressInput" placeholder="One item per line"></textarea>
+        </div>
+        <div class="field">
+          <label>Blockers</label>
+          <textarea id="blockersInput" placeholder="One item per line"></textarea>
+        </div>
+        <div class="field">
+          <label>Next</label>
+          <textarea id="nextInput" placeholder="One item per line"></textarea>
+        </div>
+      </div>
+
+      <div class="card">
+        <label style="margin-bottom:12px">Metrics</label>
+        <div id="metricsContainer"></div>
+        <button class="add-metric-btn" onclick="addMetricRow()">+ Add metric</button>
+      </div>
+
+      <div class="card">
+        <div class="field">
+          <label>Tags</label>
+          <input type="text" id="tagsInput">
+        </div>
+      </div>
+
+      <div class="btn-row">
+        <button class="save-btn" id="saveBtn" onclick="saveReport()">Save</button>
+        <button class="download-btn" onclick="downloadReport()">Download .txt</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const DB_ID = '359cf6b4-c381-8132-a01d-ebe7aba4c25b';
+    const NOTION_VER = '2022-06-28';
+    const today = new Date().toISOString().split('T')[0];
+    const tagDate = today.replace(/-/g, '_');
+    let todayPageId = null;
+
+    // ── Notion API ───────────────────────────────────────────────
+    function token() { return localStorage.getItem('notionToken'); }
+
+    async function notion(path, method, body) {
+      const r = await fetch('https://api.notion.com/v1' + path, {
+        method: method || 'GET',
+        headers: {
+          'Authorization': 'Bearer ' + token(),
+          'Notion-Version': NOTION_VER,
+          'Content-Type': 'application/json'
+        },
+        body: body ? JSON.stringify(body) : undefined
+      });
+      return r.json();
+    }
+
+    function rt(s) {
+      return [{ type: 'text', text: { content: (s || '').slice(0, 2000) } }];
+    }
+
+    function plain(prop) {
+      return prop?.rich_text?.map(r => r.plain_text).join('') || '';
+    }
+
+    function buildProps(d) {
+      return {
+        Reporter:      { rich_text: rt(d.name) },
+        Done:          { rich_text: rt(d.done) },
+        'In Progress': { rich_text: rt(d.inProgress) },
+        Blockers:      { rich_text: rt(d.blockers) },
+        Next:          { rich_text: rt(d.next) },
+        Tags:          { rich_text: rt(d.tags) },
+        Metrics:       { rich_text: rt(JSON.stringify(d.metrics || [])) }
+      };
+    }
+
+    // ── Setup ────────────────────────────────────────────────────
+    function showSetup() {
+      document.getElementById('setupScreen').style.display = '';
+      document.getElementById('mainContainer').style.display = 'none';
+    }
+
+    function showMain() {
+      document.getElementById('setupScreen').style.display = 'none';
+      document.getElementById('mainContainer').style.display = '';
+    }
+
+    async function connectToken() {
+      const t = document.getElementById('tokenInput').value.trim();
+      if (!t) return;
+      localStorage.setItem('notionToken', t);
+      await init();
+    }
+
+    function resetToken() {
+      localStorage.removeItem('notionToken');
+      showSetup();
+    }
+
+    // ── Form helpers ─────────────────────────────────────────────
+    function addMetricRow(label, value) {
+      const container = document.getElementById('metricsContainer');
+      const row = document.createElement('div');
+      row.className = 'metric-row';
+      row.innerHTML = `
+        <input type="text" placeholder="e.g. CLOSED" value="${label || ''}" style="text-transform:uppercase">
+        <input type="number" placeholder="0" value="${value || ''}" min="0">
+        <button class="remove-btn" onclick="this.parentElement.remove()">×</button>
+      `;
+      container.appendChild(row);
+    }
+
+    function getMetrics() {
+      return Array.from(document.querySelectorAll('.metric-row')).map(row => {
+        const inputs = row.querySelectorAll('input');
+        return { label: inputs[0].value.trim().toUpperCase(), value: inputs[1].value || '0' };
+      }).filter(m => m.label);
+    }
+
+    function populateForm(data) {
+      document.getElementById('nameInput').value       = data.name || '';
+      document.getElementById('doneInput').value       = data.done || '';
+      document.getElementById('inProgressInput').value = data.inProgress || '';
+      document.getElementById('blockersInput').value   = data.blockers || '';
+      document.getElementById('nextInput').value       = data.next || '';
+      document.getElementById('tagsInput').value       = data.tags || `#daily_report #cs #${tagDate}`;
+      document.getElementById('metricsContainer').innerHTML = '';
+      (data.metrics || []).forEach(m => addMetricRow(m.label, m.value));
+      if (!data.metrics || data.metrics.length === 0) addMetricRow();
+    }
+
+    function showForm() {
+      document.getElementById('addBtn').style.display = 'none';
+      document.getElementById('reportForm').classList.add('visible');
+      document.getElementById('nameInput').focus();
+    }
+
+    function joinLines(text) {
+      return text.split('\n').map(s => s.trim()).filter(Boolean).join('; ');
+    }
+
+    function collectData() {
+      return {
+        name:       document.getElementById('nameInput').value.trim() || 'Unknown',
+        done:       document.getElementById('doneInput').value,
+        inProgress: document.getElementById('inProgressInput').value,
+        blockers:   document.getElementById('blockersInput').value,
+        next:       document.getElementById('nextInput').value,
+        tags:       document.getElementById('tagsInput').value.trim(),
+        metrics:    getMetrics()
+      };
+    }
+
+    function buildReport() {
+      const d = collectData();
+      const metricsLine = d.metrics.length
+        ? 'METRICS: ' + d.metrics.map(m => `${m.label} ${m.value}`).join(' | ') + ' | '
+        : 'METRICS: ';
+      return [
+        `DAILY REPORT | ${today} | NAME: ${d.name}`,
+        '',
+        `DONE: ${joinLines(d.done)}`,
+        `IN PROGRESS: ${joinLines(d.inProgress)}`,
+        `BLOCKERS: ${joinLines(d.blockers)}`,
+        `NEXT: ${joinLines(d.next)}`,
+        metricsLine,
+        `TAGS: ${d.tags}`
+      ].join('\n');
+    }
+
+    function downloadReport() {
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(new Blob([buildReport()], { type: 'text/plain' }));
+      a.download = `daily-report-${today}.txt`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+    }
+
+    // ── Save ─────────────────────────────────────────────────────
+    async function saveReport() {
+      const btn = document.getElementById('saveBtn');
+      btn.textContent = 'Saving…';
+      btn.disabled = true;
+
+      try {
+        const data = collectData();
+        localStorage.setItem('reportName', data.name);
+        const props = buildProps(data);
+
+        if (todayPageId) {
+          const res = await notion('/pages/' + todayPageId, 'PATCH', { properties: props });
+          if (res.object === 'error') throw new Error(res.message);
+        } else {
+          const res = await notion('/pages', 'POST', {
+            parent: { database_id: DB_ID },
+            properties: { Name: { title: rt(today) }, ...props }
+          });
+          if (res.object === 'error') throw new Error(res.message);
+          todayPageId = res.id;
+        }
+
+        btn.textContent = 'Saved ✓';
+        setTimeout(() => { btn.textContent = 'Update Report'; btn.disabled = false; }, 1500);
+      } catch (e) {
+        btn.textContent = 'Error — retry';
+        btn.disabled = false;
+      }
+    }
+
+    // ── Init ─────────────────────────────────────────────────────
+    async function init() {
+      if (!token()) { showSetup(); return; }
+
+      showMain();
+      document.getElementById('displayDate').textContent = today;
+
+      try {
+        const res = await notion('/databases/' + DB_ID + '/query', 'POST', {
+          filter: { property: 'Name', title: { equals: today } }
+        });
+        if (res.object === 'error') throw new Error(res.message);
+
+        const existing = res.results?.[0];
+        if (existing) {
+          todayPageId = existing.id;
+          const p = existing.properties;
+          let metrics = [];
+          try { metrics = JSON.parse(plain(p.Metrics) || '[]'); } catch (_) {}
+          populateForm({
+            name:       plain(p.Reporter),
+            done:       plain(p.Done),
+            inProgress: plain(p['In Progress']),
+            blockers:   plain(p.Blockers),
+            next:       plain(p.Next),
+            tags:       plain(p.Tags),
+            metrics
+          });
+          document.getElementById('addBtn').style.display = 'none';
+          document.getElementById('saveBtn').textContent = 'Update Report';
+          document.getElementById('reportForm').classList.add('visible');
+        } else {
+          document.getElementById('nameInput').value = localStorage.getItem('reportName') || '';
+          document.getElementById('tagsInput').value = `#daily_report #cs #${tagDate}`;
+          addMetricRow();
+        }
+      } catch (e) {
+        alert('Notion 连接失败：' + e.message + '\n请检查 token 是否正确，以及已将 database 分享给 integration。');
+        resetToken();
+      }
+    }
+
+    init();
+  </script>
+</body>
+</html>
