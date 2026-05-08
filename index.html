@@ -59,7 +59,6 @@
     textarea { resize: vertical; min-height: 70px; line-height: 1.5; }
     .hint { font-size: 11px; color: #aeaeb2; margin-top: 4px; }
 
-    /* Metrics */
     .metric-row {
       display: flex; gap: 8px; align-items: center; margin-bottom: 8px;
     }
@@ -110,13 +109,13 @@
   <div id="setupScreen" class="container" style="display:none">
     <div class="header">
       <div class="label">Daily Report</div>
-      <div class="date" style="font-size:18px; margin-top:8px; color:#8e8e93;">Connect Notion</div>
+      <div class="date" style="font-size:18px; margin-top:8px; color:#8e8e93;">Connect GitHub</div>
     </div>
     <div class="card">
       <div class="field">
-        <label>Integration Token</label>
-        <input type="password" id="tokenInput" placeholder="secret_... or ntn_...">
-        <div class="hint">从 notion.so/my-integrations 复制 — 只存在本机，不写入文件</div>
+        <label>GitHub Personal Access Token</label>
+        <input type="password" id="tokenInput" placeholder="ghp_...">
+        <div class="hint">从 github.com/settings/tokens 复制 — 只存在本机，不写入文件</div>
       </div>
       <button class="save-btn" onclick="connectToken()" style="width:100%;margin-top:4px">Connect</button>
     </div>
@@ -180,46 +179,46 @@
   </div>
 
   <script>
-    const DB_ID = '359cf6b4-c381-8132-a01d-ebe7aba4c25b';
-    const NOTION_VER = '2022-06-28';
-    const today = new Date().toISOString().split('T')[0];
+    const OWNER = 'kayjetleong-code';
+    const REPO  = 'daily-report';
+    const FILE  = 'data.json';
+    const today   = new Date().toISOString().split('T')[0];
     const tagDate = today.replace(/-/g, '_');
-    let todayPageId = null;
 
-    // ── Notion API ───────────────────────────────────────────────
-    function token() { return localStorage.getItem('notionToken'); }
+    // ── GitHub API ───────────────────────────────────────────────
+    function token() { return localStorage.getItem('githubToken'); }
 
-    async function notion(path, method, body) {
-      const r = await fetch('https://api.notion.com/v1' + path, {
+    async function ghFetch(path, method, body) {
+      const r = await fetch('https://api.github.com' + path, {
         method: method || 'GET',
         headers: {
           'Authorization': 'Bearer ' + token(),
-          'Notion-Version': NOTION_VER,
-          'Content-Type': 'application/json'
+          'Accept': 'application/vnd.github+json',
+          'X-GitHub-Api-Version': '2022-11-28'
         },
         body: body ? JSON.stringify(body) : undefined
       });
       return r.json();
     }
 
-    function rt(s) {
-      return [{ type: 'text', text: { content: (s || '').slice(0, 2000) } }];
+    function b64Encode(str) { return btoa(unescape(encodeURIComponent(str))); }
+    function b64Decode(str) { return decodeURIComponent(escape(atob(str.replace(/\n/g, '')))); }
+
+    async function readFile() {
+      const res = await ghFetch(`/repos/${OWNER}/${REPO}/contents/${FILE}`);
+      if (res.message === 'Not Found') return { all: {}, sha: null };
+      return { all: JSON.parse(b64Decode(res.content)), sha: res.sha };
     }
 
-    function plain(prop) {
-      return prop?.rich_text?.map(r => r.plain_text).join('') || '';
-    }
-
-    function buildProps(d) {
-      return {
-        Reporter:      { rich_text: rt(d.name) },
-        Done:          { rich_text: rt(d.done) },
-        'In Progress': { rich_text: rt(d.inProgress) },
-        Blockers:      { rich_text: rt(d.blockers) },
-        Next:          { rich_text: rt(d.next) },
-        Tags:          { rich_text: rt(d.tags) },
-        Metrics:       { rich_text: rt(JSON.stringify(d.metrics || [])) }
+    async function writeFile(all, sha) {
+      const body = {
+        message: `report ${today}`,
+        content: b64Encode(JSON.stringify(all, null, 2)),
+        ...(sha ? { sha } : {})
       };
+      const res = await ghFetch(`/repos/${OWNER}/${REPO}/contents/${FILE}`, 'PUT', body);
+      if (res.message) throw new Error(res.message);
+      return res.content.sha;
     }
 
     // ── Setup ────────────────────────────────────────────────────
@@ -227,7 +226,6 @@
       document.getElementById('setupScreen').style.display = '';
       document.getElementById('mainContainer').style.display = 'none';
     }
-
     function showMain() {
       document.getElementById('setupScreen').style.display = 'none';
       document.getElementById('mainContainer').style.display = '';
@@ -236,12 +234,11 @@
     async function connectToken() {
       const t = document.getElementById('tokenInput').value.trim();
       if (!t) return;
-      localStorage.setItem('notionToken', t);
+      localStorage.setItem('githubToken', t);
       await init();
     }
-
     function resetToken() {
-      localStorage.removeItem('notionToken');
+      localStorage.removeItem('githubToken');
       showSetup();
     }
 
@@ -334,20 +331,9 @@
       try {
         const data = collectData();
         localStorage.setItem('reportName', data.name);
-        const props = buildProps(data);
-
-        if (todayPageId) {
-          const res = await notion('/pages/' + todayPageId, 'PATCH', { properties: props });
-          if (res.object === 'error') throw new Error(res.message);
-        } else {
-          const res = await notion('/pages', 'POST', {
-            parent: { database_id: DB_ID },
-            properties: { Name: { title: rt(today) }, ...props }
-          });
-          if (res.object === 'error') throw new Error(res.message);
-          todayPageId = res.id;
-        }
-
+        const { all, sha } = await readFile();
+        all[today] = data;
+        await writeFile(all, sha);
         btn.textContent = 'Saved ✓';
         setTimeout(() => { btn.textContent = 'Update Report'; btn.disabled = false; }, 1500);
       } catch (e) {
@@ -359,31 +345,14 @@
     // ── Init ─────────────────────────────────────────────────────
     async function init() {
       if (!token()) { showSetup(); return; }
-
       showMain();
       document.getElementById('displayDate').textContent = today;
 
       try {
-        const res = await notion('/databases/' + DB_ID + '/query', 'POST', {
-          filter: { property: 'Name', title: { equals: today } }
-        });
-        if (res.object === 'error') throw new Error(res.message);
-
-        const existing = res.results?.[0];
+        const { all } = await readFile();
+        const existing = all[today];
         if (existing) {
-          todayPageId = existing.id;
-          const p = existing.properties;
-          let metrics = [];
-          try { metrics = JSON.parse(plain(p.Metrics) || '[]'); } catch (_) {}
-          populateForm({
-            name:       plain(p.Reporter),
-            done:       plain(p.Done),
-            inProgress: plain(p['In Progress']),
-            blockers:   plain(p.Blockers),
-            next:       plain(p.Next),
-            tags:       plain(p.Tags),
-            metrics
-          });
+          populateForm(existing);
           document.getElementById('addBtn').style.display = 'none';
           document.getElementById('saveBtn').textContent = 'Update Report';
           document.getElementById('reportForm').classList.add('visible');
@@ -393,7 +362,7 @@
           addMetricRow();
         }
       } catch (e) {
-        alert('Notion 连接失败：' + e.message + '\n请检查 token 是否正确，以及已将 database 分享给 integration。');
+        alert('GitHub 连接失败：' + e.message + '\n请检查 token 是否正确。');
         resetToken();
       }
     }
