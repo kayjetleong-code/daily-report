@@ -2,9 +2,9 @@
   "2026-05-08": {
     "name": "Alex",
     "done": "Ticket-180826; Provided information to the legal team; Help Steven customer to change their contract from invalid to expired; Help Steven apply contract extension; Monitoring the SalesIQ;",
-    "inProgress": "Ticket-180897",
-    "blockers": "Waiting NOC Team to update the PTR Record",
-    "next": "After NOC Team update, I will reply customer",
+    "inProgress": "Ticket-180897; ",
+    "blockers": "Waiting NOC Team to update the PTR Record; ",
+    "next": "After NOC Team update, I will reply customer; ",
     "tags": "#daily_report #cs #2026_05_08",
     "metrics": [
       {
