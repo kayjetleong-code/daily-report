@@ -1,19 +1,15 @@
 {
-  "2026-05-08": {
+  "2026-05-11": {
     "name": "Alex",
-    "done": "Ticket-180826; Provided information to the legal team; Help Steven customer to change their contract from invalid to expired; Help Steven apply contract extension; Monitoring the SalesIQ;",
-    "inProgress": "Ticket-180897; ",
-    "blockers": "Waiting customer to confirm the PTR record;",
-    "next": "None",
-    "tags": "#daily_report #cs #2026_05_08",
+    "done": "Reply all the emails;",
+    "inProgress": "Ticket-180897 Update PTR record; Ticket-181051 Update PTR record; Ticket-180992 Route object;",
+    "blockers": "Ticket-180897 and Ticket-181051 waiting NOC to process; Ticket-180992 waiting customer to confirm the information",
+    "next": "After NOC complete the PTR update I will reply to customer; After customer confirm the information I will update to NOC",
+    "tags": "#daily_report #cs #2026_05_11",
     "metrics": [
       {
-        "label": "CLOSED",
-        "value": "1"
-      },
-      {
         "label": "PENDING",
-        "value": "1"
+        "value": "3"
       }
     ]
   }
