@@ -1,7 +1,7 @@
 {
   "2026-05-11": {
     "name": "Alex",
-    "done": "Reply all the emails; Ticket-180984 promote their services; Ticket-180972 promote their services; Ticket-180897 Update PTR record; ",
+    "done": "Reply all the emails; Ticket-180984 promote their services; Ticket-180972 promote their services; Ticket-180897 Update PTR record; \nTicket 181342, 181341 and 181340 promote their offer",
     "inProgress": "Ticket-181051 Update PTR record; Ticket-180992 Route object; SalesIQ - Dispute case",
     "blockers": "Ticket-181051 waiting NOC to process; Ticket-180992 waiting customer to confirm the information; Waiting JK to check on it",
     "next": "After NOC complete the PTR update I will reply to customer; After customer confirm the information I will update to NOC; After JK check I will update to customer;",
@@ -13,7 +13,7 @@
       },
       {
         "label": "CLOSED",
-        "value": "3"
+        "value": "6"
       }
     ]
   }
