@@ -2,14 +2,14 @@
   "2026-05-11": {
     "name": "Alex",
     "done": "Reply all the emails; Ticket-180984 promote their services; Ticket-180972 promote their services",
-    "inProgress": "Ticket-180897 Update PTR record; Ticket-181051 Update PTR record; Ticket-180992 Route object;",
-    "blockers": "Ticket-180897 and Ticket-181051 waiting NOC to process; Ticket-180992 waiting customer to confirm the information",
-    "next": "After NOC complete the PTR update I will reply to customer; After customer confirm the information I will update to NOC",
+    "inProgress": "Ticket-180897 Update PTR record; Ticket-181051 Update PTR record; Ticket-180992 Route object; SalesIQ - Dispute case",
+    "blockers": "Ticket-180897 and Ticket-181051 waiting NOC to process; Ticket-180992 waiting customer to confirm the information; Waiting JK to check on it",
+    "next": "After NOC complete the PTR update I will reply to customer; After customer confirm the information I will update to NOC; After JK check I will update to customer;",
     "tags": "#daily_report #cs #2026_05_11",
     "metrics": [
       {
         "label": "PENDING",
-        "value": "3"
+        "value": "4"
       },
       {
         "label": "CLOSED",
