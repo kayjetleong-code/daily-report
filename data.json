@@ -1,7 +1,7 @@
 {
   "2026-05-12": {
     "name": "Alex",
-    "done": "Ticket-181475 Promote their services; Ticket-181457 Promote their services;",
+    "done": "Ticket-181475 Promote their services; Ticket-181457 Promote their services; Provide the company information to legal team about the abuse email; ",
     "inProgress": "Ticket-180992 Route Object;",
     "blockers": "Ticket-180992 Waiting customer to confirm the information;",
     "next": "After confirm the information I will update to NOC;",
@@ -9,7 +9,7 @@
     "metrics": [
       {
         "label": "CLOSED",
-        "value": "2"
+        "value": "3"
       },
       {
         "label": "PENDING",
