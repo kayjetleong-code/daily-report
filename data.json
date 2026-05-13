@@ -1,7 +1,7 @@
 {
   "2026-05-13": {
     "name": "Alex",
-    "done": "Reviewed all the email; Ticket-180992 Customer request to create route object; Helped Merna to change her customer under her name from other sales name; Ticket-181570 Update the route object",
+    "done": "Reviewed all the email; Ticket-180992 Customer request to create route object; Helped Merna to change her customer under her name from other sales name; Ticket-181570 Update the route object; Ticket-181636 Promoting ticket",
     "inProgress": "None",
     "blockers": "None",
     "next": "None",
@@ -13,7 +13,7 @@
       },
       {
         "label": "DONE",
-        "value": "4"
+        "value": "5"
       }
     ]
   }
