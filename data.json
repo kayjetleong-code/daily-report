@@ -2,13 +2,17 @@
   "2026-05-13": {
     "name": "Alex",
     "done": "Reviewed all the email; ",
-    "inProgress": "Ticket-180992 Customer request to create route object;\n",
-    "blockers": "Ticket-180992 waiting customer to create the route object; ",
-    "next": "Ticket-180992 after customer created the route object will escalate to NOC; ",
+    "inProgress": "Ticket-180992 Customer request to create route object; Ticket-181570 Update the route object\n",
+    "blockers": "Ticket-180992 waiting customer to create the route object; Ticket-181570 waiting NOC to update;",
+    "next": "Ticket-180992 after customer created the route object will escalate to NOC; Ticket-181570 after NOC update the route object will reply customer",
     "tags": "#daily_report #cs #2026_05_13",
     "metrics": [
       {
         "label": "PENDING",
+        "value": "2"
+      },
+      {
+        "label": "DONE",
         "value": "1"
       }
     ]
