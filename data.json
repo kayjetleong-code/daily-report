@@ -1,16 +1,12 @@
 {
-  "2026-05-12": {
+  "2026-05-13": {
     "name": "Alex",
-    "done": "Ticket-181475 Promote their services; Ticket-181457 Promote their services; Provide the company information to legal team about the abuse email; Helped JK categorize the videos according to the most suitable webpages; Ticket-181492 Promote their services; Ticket-181499 Promote their services",
-    "inProgress": "Ticket-180992 Route Object;",
-    "blockers": "Ticket-180992 Waiting customer to confirm the information;",
-    "next": "After confirm the information I will update to NOC;",
-    "tags": "#daily_report #cs #2026_05_12",
+    "done": "Reviewed all the email; ",
+    "inProgress": "Ticket-180992 Customer request to create route object;\n",
+    "blockers": "Ticket-180992 waiting customer to create the route object; ",
+    "next": "Ticket-180992 after customer created the route object will escalate to NOC; ",
+    "tags": "#daily_report #cs #2026_05_13",
     "metrics": [
-      {
-        "label": "CLOSED",
-        "value": "6"
-      },
       {
         "label": "PENDING",
         "value": "1"
