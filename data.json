@@ -1,19 +1,15 @@
 {
-  "2026-05-13": {
+  "2026-05-14": {
     "name": "Alex",
-    "done": "Reviewed all the email; Ticket-180992 Customer request to create route object; Helped Merna to change her customer under her name from other sales name; Ticket-181570 Update the route object; Ticket-181636 Promoting ticket; Ticket-181670 Promoting ticket; Ticket-181669 Promoting ticket;",
-    "inProgress": "None",
-    "blockers": "None",
-    "next": "None",
-    "tags": "#daily_report #cs #2026_05_13",
+    "done": "Help KC to transfer the account manager from Jayden Kong to Khan; Help KC to check the contract extension submission status.",
+    "inProgress": "",
+    "blockers": "",
+    "next": "",
+    "tags": "#daily_report #cs #2026_05_14",
     "metrics": [
       {
-        "label": "PENDING",
-        "value": "0"
-      },
-      {
         "label": "DONE",
-        "value": "7"
+        "value": "2"
       }
     ]
   }
