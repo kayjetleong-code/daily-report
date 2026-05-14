@@ -1,7 +1,7 @@
 {
   "2026-05-14": {
     "name": "Alex",
-    "done": "Help KC to transfer the account manager from Jayden Kong to Khan; Help KC to check the contract extension submission status.",
+    "done": "Help KC to transfer the account manager from Jayden Kong to Khan; Help KC to check the contract extension submission status; Ticket-181745 Promoting their service; Ticket-181747 Promoting their service; ",
     "inProgress": "",
     "blockers": "",
     "next": "",
@@ -9,7 +9,7 @@
     "metrics": [
       {
         "label": "DONE",
-        "value": "2"
+        "value": "4"
       }
     ]
   }
