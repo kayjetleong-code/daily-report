@@ -2,14 +2,18 @@
   "2026-05-14": {
     "name": "Alex",
     "done": "Help KC to transfer the account manager from Jayden Kong to Khan; Help KC to check the contract extension submission status; Ticket-181745 Promoting their service; Ticket-181747 Promoting their service; ",
-    "inProgress": "",
-    "blockers": "",
-    "next": "",
+    "inProgress": "Ticket-179896 Looking to set up a server;",
+    "blockers": "Ticket-179896 waiting customer to reply;",
+    "next": "Ticket-179896 once customer still interest will ask for more information; ",
     "tags": "#daily_report #cs #2026_05_14",
     "metrics": [
       {
         "label": "DONE",
         "value": "4"
+      },
+      {
+        "label": "PENDING",
+        "value": "0"
       }
     ]
   }
