@@ -1,7 +1,7 @@
 {
   "2026-05-18": {
     "name": "Alex",
-    "done": "Ticket-182399 Promoting their services; Ticket-182357 Promoting their services; Ticket-182320 Promoting their services; Ticket-182253 Promoting their services; Ticket-182252 Promoting their services; ",
+    "done": "Ticket-182399 Promoting their services; Ticket-182357 Promoting their services; Ticket-182320 Promoting their services; Ticket-182253 Promoting their services; Ticket-182252 Promoting their services; Providing the company info to legal team;",
     "inProgress": "",
     "blockers": "",
     "next": "",
@@ -9,7 +9,7 @@
     "metrics": [
       {
         "label": "CLOSED",
-        "value": "5"
+        "value": "6"
       }
     ]
   }
