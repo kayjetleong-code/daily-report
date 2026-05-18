@@ -1,19 +1,15 @@
 {
-  "2026-05-15": {
+  "2026-05-18": {
     "name": "Alex",
-    "done": "Ticket-182036 Asking for our product latest prices; Ticket-182059 Promoting their service; Ticket-182060 Promoting their service; ",
-    "inProgress": "Ticket-179896 Looking to set up a server; Receive a case from Wecom about remove the ASN; Received a case from email about update their PTR record; ",
-    "blockers": "Ticket-179896 Waiting customer to reply; Waiting NOC to process it; Waiting customer to confirm their information;",
-    "next": "Ticket-179896 After customer reply will transfer to sales; After NOC complete will update customer to check; After customer confirm, I will let NOC to update the PTR record;",
-    "tags": "#daily_report #cs #2026_05_15",
+    "done": "Ticket-182399 Promoting their services; Ticket-182357 Promoting their services; Ticket-182320 Promoting their services; Ticket-182253 Promoting their services; Ticket-182252 Promoting their services; ",
+    "inProgress": "",
+    "blockers": "",
+    "next": "",
+    "tags": "#daily_report #cs #2026_05_18",
     "metrics": [
       {
-        "label": "PENDING",
-        "value": "3"
-      },
-      {
         "label": "CLOSED",
-        "value": "3"
+        "value": "5"
       }
     ]
   }
