@@ -18,7 +18,7 @@
     "done": "Ticket-182831 Promoting their services; Ticket-182812 Promoting their services; ",
     "inProgress": "Ticket-182850 Update Geo;",
     "blockers": "Ticket-182850 Waiting customer to reply;",
-    "next": "",
+    "next": "Ticket-182850 I have sent the guide to customer;",
     "tags": "#daily_report #cs #2026_05_19",
     "metrics": [
       {
