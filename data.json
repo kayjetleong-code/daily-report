@@ -33,7 +33,7 @@
   },
   "2026-05-20": {
     "name": "Alex",
-    "done": "Ticket-182999 Update PTR record; Ticket-183161 Promoting their service;",
+    "done": "Ticket-182999 Update PTR record; Ticket-183161 Promoting their service; Replied customer email; Ticket-183162 Update PTR record;",
     "inProgress": "",
     "blockers": "",
     "next": "",
@@ -41,7 +41,7 @@
     "metrics": [
       {
         "label": "CLOSED",
-        "value": "2"
+        "value": "4"
       }
     ]
   }
