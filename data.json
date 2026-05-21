@@ -47,15 +47,15 @@
   },
   "2026-05-21": {
     "name": "Alex",
-    "done": "Ticket-183429 Promoting their services; Ticket-183428 Promoting their services; Help Steven apply extension for his customers;",
-    "inProgress": "",
-    "blockers": "",
-    "next": "",
+    "done": "Ticket-183429 Promoting their services; Ticket-183428 Promoting their services; Help Steven apply extension for his customers; Provide the company information to the legal team;",
+    "inProgress": "None",
+    "blockers": "None",
+    "next": "None",
     "tags": "#daily_report #cs #2026_05_21",
     "metrics": [
       {
         "label": "CLOSED",
-        "value": "3"
+        "value": "4"
       }
     ]
   }
