@@ -47,7 +47,7 @@
   },
   "2026-05-21": {
     "name": "Alex",
-    "done": "Ticket-183429 Promoting their services; Ticket-183428 Promoting their services; ",
+    "done": "Ticket-183429 Promoting their services; Ticket-183428 Promoting their services; Help Steven apply extension for his customers;",
     "inProgress": "",
     "blockers": "",
     "next": "",
@@ -55,7 +55,7 @@
     "metrics": [
       {
         "label": "CLOSED",
-        "value": "2"
+        "value": "3"
       }
     ]
   }
