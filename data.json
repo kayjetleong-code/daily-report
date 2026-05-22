@@ -58,5 +58,23 @@
         "value": "4"
       }
     ]
+  },
+  "2026-05-22": {
+    "name": "Alex",
+    "done": "Ticket-183854 Promoting their service; Ticket-183775 Promoting their service; ",
+    "inProgress": "Ticket-183162 Update PTR record; Ticket-179896 Looking to set up a server",
+    "blockers": "Ticket-183162 Waiting NOC team to check on it; Ticket-179896 Waiting Paul to reply;",
+    "next": "Ticket-183162 I will update customer once NOC team complete the update; Ticket-179896 I will reply to customer after Paul provide the answer;",
+    "tags": "#daily_report #cs #2026_05_22",
+    "metrics": [
+      {
+        "label": "CLOSED",
+        "value": "2"
+      },
+      {
+        "label": "PENDING",
+        "value": "2"
+      }
+    ]
   }
 }
