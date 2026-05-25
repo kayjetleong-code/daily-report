@@ -79,19 +79,19 @@
   },
   "2026-05-25": {
     "name": "Alex",
-    "done": "Ticket-184768 Promoting their services; Ticket-184760 Promoting their services; Ticket-184646 Promoting their services; Ticket-184636 Promoting their services; Ticket-184631 Promoting their services;  Ticket-184624 Promoting their services; Ticket-184576 Promoting their services; Ticket-184513 Promoting their services; Ticket-184467 Promoting their services; Ticket-184461 Promoting their services; Ticket-184364 Promoting their services; Ticket-184278 Promoting their services; Ticket-184267 Promoting their services; Ticket-184772 Promoting their services;",
-    "inProgress": "Ticket-184630 ROA missing after renewal;",
-    "blockers": "Ticket-184630 Waiting customer to reply;",
-    "next": "Ticket-184630 After customer reply I will update in NOC channel;",
+    "done": "Ticket-184768 Promoting their services; Ticket-184646 Promoting their services; Ticket-184636 Promoting their services; Ticket-184631 Promoting their services;  Ticket-184624 Promoting their services; Ticket-184576 Promoting their services; Ticket-184513 Promoting their services; Ticket-184467 Promoting their services; Ticket-184461 Promoting their services; Ticket-184364 Promoting their services; Ticket-184278 Promoting their services; Ticket-184267 Promoting their services; Ticket-184772 Promoting their services;",
+    "inProgress": "Ticket-184630 ROA missing after renewal; Ticket-184760 Purchase Order CA260005496; Ticket-184772 Purchase Order CA260005496; ",
+    "blockers": "Ticket-184630 Waiting customer to reply; Ticket-184760 & Ticket-184772 Confirming with KC about the cases",
+    "next": "Ticket-184630 After customer reply I will update in NOC channel; Ticket-184760 & Ticket-184772 I will reply after KC give the answer",
     "tags": "#daily_report #cs #2026_05_25",
     "metrics": [
       {
         "label": "CLOSED",
-        "value": "13"
+        "value": "12"
       },
       {
         "label": "PENDING",
-        "value": "1"
+        "value": "3"
       }
     ]
   }
