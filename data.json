@@ -97,19 +97,19 @@
   },
   "2026-05-26": {
     "name": "Alex",
-    "done": "Help Steven to change his customer contract from invalid to expire; Help Juan Manuel to apply the extension for his customer; Ticket-184868 Promoting their services; Ticket-184867 Promoting their services; Ticket-184866 Promoting their services; ",
-    "inProgress": "Ticket-184630 I have posted in NOC channel",
-    "blockers": "Ticket-184630 Waiting NOC to update it",
-    "next": "Ticket-184630 I will reply to customer once NOC complete",
+    "done": "Help Steven to change his customer contract from invalid to expire; Help Juan Manuel to apply the extension for his customer; Ticket-184868 Promoting their services; Ticket-184867 Promoting their services; Ticket-184866 Promoting their services; Ticket-184630 Create the RPKI;",
+    "inProgress": "",
+    "blockers": "",
+    "next": "",
     "tags": "#daily_report #cs #2026_05_26",
     "metrics": [
       {
         "label": "CLOSED",
-        "value": "5"
+        "value": "6"
       },
       {
         "label": "PENDING",
-        "value": "1"
+        "value": "0"
       }
     ]
   }
