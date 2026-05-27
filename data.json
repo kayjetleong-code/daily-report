@@ -115,15 +115,15 @@
   },
   "2026-05-27": {
     "name": "Alex",
-    "done": "Ticket-185087 Promoting their services; Ticket-185081 Promoting their services; Ticket-185080 Promoting their services; Ticket-185069 Promoting their services; Ticket-185068 Promoting their services; Ticket-185058 Promoting their services; ",
-    "inProgress": "Ticket-185148 Request PO",
-    "blockers": "Ticket-185148 Waiting customer to confirm their company name",
-    "next": "Ticket-185148 After customer confirm i will check the PO for them",
+    "done": "Ticket-185087 Promoting their services; Ticket-185081 Promoting their services; Ticket-185080 Promoting their services; Ticket-185069 Promoting their services; Ticket-185068 Promoting their services; Ticket-185058 Promoting their services; Help Steven change his customer contract status from invlaid to expired; Help Sefie to transfer her customer from Jayden to Sefie; ",
+    "inProgress": "Ticket-185148 Request PO; Ticket-185150 Request PO; ",
+    "blockers": "Ticket-185148 Waiting customer to confirm their company name; Ticket-185150 Waiting customer to confirm their company name;",
+    "next": "Ticket-185148 After customer confirm i will check the PO for them; Ticket-185150 After customer confirm i will check the PO for them;",
     "tags": "#daily_report #cs #2026_05_27",
     "metrics": [
       {
         "label": "CLOSED",
-        "value": "6"
+        "value": "8"
       },
       {
         "label": "PENDING",
