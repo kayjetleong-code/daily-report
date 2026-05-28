@@ -130,5 +130,19 @@
         "value": "4"
       }
     ]
+  },
+  "2026-05-28": {
+    "name": "Alex",
+    "done": "Help Steven to change his customer contract from invalid to expired; Updated the missed chat report and submit to KC; Call the customer to remind customer about the contract will expire soon.",
+    "inProgress": "",
+    "blockers": "",
+    "next": "",
+    "tags": "#daily_report #cs #2026_05_28",
+    "metrics": [
+      {
+        "label": "CLOSED",
+        "value": "3"
+      }
+    ]
   }
 }
