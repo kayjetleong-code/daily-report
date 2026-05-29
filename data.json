@@ -147,7 +147,7 @@
   },
   "2026-05-29": {
     "name": "Alex",
-    "done": "Ticket-185449 Promoting their services; Ticket 185404 Spam email; Ticket 185403 Spam email; Ticket-185385 Promoting their services; \nTicket-185479 Promoting their services; ",
+    "done": "Ticket-185449 Promoting their services; Ticket 185404 Spam email; Ticket 185403 Spam email; Ticket-185385 Promoting their services; \nTicket-185479 Promoting their services; Received a case about abuse case from Sales IQ and provided the company information to the legal team;",
     "inProgress": "",
     "blockers": "",
     "next": "",
@@ -155,7 +155,7 @@
     "metrics": [
       {
         "label": "CLOSED",
-        "value": "5"
+        "value": "6"
       }
     ]
   }
