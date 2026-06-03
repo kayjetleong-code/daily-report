@@ -189,14 +189,18 @@
   },
   "2026-06-03": {
     "name": "Alex",
-    "done": "Ticket - 186841 Promoting their services; Ticket - 186839 Promoting their services; Ticket - 186759 Promoting their services; ",
-    "inProgress": "",
-    "blockers": "",
-    "next": "",
+    "done": "Ticket - 186841 Promoting their services; Ticket - 186839 Promoting their services; Ticket - 186759 Promoting their services; Help Steven to apply extension for his customer contract; ",
+    "inProgress": "Ticket 186840 - Update PTR records; Ticket 186388 - Update PTR records; Ticket - 179896 Looking to set up a server;",
+    "blockers": "Ticket - 186840 & 186388 Waiting customer to reply; Ticket - 179896 Waiting Leah to confirm customer request; ",
+    "next": "Ticket - 186840 & 186388 I will close the tickets after customer reply; Ticket - 179896 I will reply to customer after Leah provide the answer",
     "tags": "#daily_report #cs #2026_06_03",
     "metrics": [
       {
         "label": "CLOSED",
+        "value": "4"
+      },
+      {
+        "label": "PENDING",
         "value": "3"
       }
     ]
