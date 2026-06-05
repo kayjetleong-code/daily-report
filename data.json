@@ -223,8 +223,8 @@
     "name": "Alex",
     "done": "",
     "inProgress": "Ticket - 179759 Update PTR record; ",
-    "blockers": "Ticket - 179759 Waiting NOC to update; ",
-    "next": "Ticket - 179759 I will update customer after NOC complete the update",
+    "blockers": "Ticket - 179759 Waiting Customer to confirm; ",
+    "next": "Ticket - 179759 I will close the ticket after customer confirm; ",
     "tags": "#daily_report #cs #2026_06_05",
     "metrics": [
       {
