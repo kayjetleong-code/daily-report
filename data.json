@@ -222,14 +222,14 @@
   "2026-06-05": {
     "name": "Alex",
     "done": "Ticket - 187214 Promoting their services; Ticket - 187117 Promoting their services; Working with Leah about the customer asking about set up server; ",
-    "inProgress": "Ticket - 179759 Update PTR record; ",
-    "blockers": "Ticket - 179759 Waiting Customer to confirm; ",
-    "next": "Ticket - 179759 I will close the ticket after customer confirm; ",
+    "inProgress": "Ticket - 179759 Update PTR record; Help customer to update their ASN; ",
+    "blockers": "Ticket - 179759 Waiting Customer to confirm; Waiting NOC to process it; ",
+    "next": "Ticket - 179759 I will close the ticket after customer confirm; I will update the customer after NOC complete it;",
     "tags": "#daily_report #cs #2026_06_05",
     "metrics": [
       {
         "label": "PENDING",
-        "value": "1"
+        "value": "2"
       },
       {
         "label": "CLOSED",
