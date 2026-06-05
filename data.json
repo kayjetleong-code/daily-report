@@ -221,7 +221,7 @@
   },
   "2026-06-05": {
     "name": "Alex",
-    "done": "",
+    "done": "Ticket - 187214 Promoting their services; Ticket - 187117 Promoting their services; Working with Leah about the customer asking about set up server; ",
     "inProgress": "Ticket - 179759 Update PTR record; ",
     "blockers": "Ticket - 179759 Waiting Customer to confirm; ",
     "next": "Ticket - 179759 I will close the ticket after customer confirm; ",
@@ -230,6 +230,10 @@
       {
         "label": "PENDING",
         "value": "1"
+      },
+      {
+        "label": "CLOSED",
+        "value": "3"
       }
     ]
   }
