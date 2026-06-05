@@ -218,5 +218,19 @@
         "value": "5"
       }
     ]
+  },
+  "2026-06-05": {
+    "name": "Alex",
+    "done": "",
+    "inProgress": "Ticket - 179759 Update PTR record; ",
+    "blockers": "Ticket - 179759 Waiting NOC to update; ",
+    "next": "Ticket - 179759 I will update customer after NOC complete the update",
+    "tags": "#daily_report #cs #2026_06_05",
+    "metrics": [
+      {
+        "label": "PENDING",
+        "value": "1"
+      }
+    ]
   }
 }
