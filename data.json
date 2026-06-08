@@ -239,7 +239,7 @@
   },
   "2026-06-08": {
     "name": "Alex",
-    "done": "Ticket - 187686 Promoting their services; Ticket - 187633 Promoting their services; Ticket - 187293 Promoting their services; Ticket - 187266 Promoting their services; Ticket - 187256 Promoting their services; Ticket - 187516 Asking for the IP prices;  Ticket - 187441 Asking the IP is possible to update the ASN; Ticket - 187709 Promoting their services;",
+    "done": "Ticket - 187686 Promoting their services; Ticket - 187633 Promoting their services; Ticket - 187293 Promoting their services; Ticket - 187266 Promoting their services; Ticket - 187256 Promoting their services; Ticket - 187516 Asking for the IP prices;  Ticket - 187441 Asking the IP is possible to update the ASN; Ticket - 187709 Promoting their services; Ticket - 187718 Promoting their services;",
     "inProgress": "",
     "blockers": "",
     "next": "",
@@ -247,7 +247,7 @@
     "metrics": [
       {
         "label": "CLOSED",
-        "value": "8"
+        "value": "6"
       }
     ]
   }
