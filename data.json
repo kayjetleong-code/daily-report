@@ -236,5 +236,19 @@
         "value": "3"
       }
     ]
+  },
+  "2026-06-08": {
+    "name": "Alex",
+    "done": "Ticket - 187686 Promoting their services; Ticket - 187633 Promoting their services; Ticket - 187293 Promoting their services; Ticket - 187266 Promoting their services; Ticket - 187256 Promoting their services; Ticket - 187516 Asking for the IP prices;  Ticket - 187441 Asking the IP is possible to update the ASN; ",
+    "inProgress": "",
+    "blockers": "",
+    "next": "",
+    "tags": "#daily_report #cs #2026_06_08",
+    "metrics": [
+      {
+        "label": "CLOSED",
+        "value": "7"
+      }
+    ]
   }
 }
