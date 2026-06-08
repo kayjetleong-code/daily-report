@@ -239,7 +239,7 @@
   },
   "2026-06-08": {
     "name": "Alex",
-    "done": "Ticket - 187686 Promoting their services; Ticket - 187633 Promoting their services; Ticket - 187293 Promoting their services; Ticket - 187266 Promoting their services; Ticket - 187256 Promoting their services; Ticket - 187516 Asking for the IP prices;  Ticket - 187441 Asking the IP is possible to update the ASN; Ticket - 187709 Promoting their services; Ticket - 187718 Promoting their services;",
+    "done": "Ticket - 187686 Promoting their services; Ticket - 187633 Promoting their services; Ticket - 187293 Promoting their services; Ticket - 187266 Promoting their services; Ticket - 187256 Promoting their services; Ticket - 187516 Asking for the IP prices;  Ticket - 187441 Asking the IP is possible to update the ASN; Ticket - 187709 Promoting their services; Ticket - 187718 Promoting their services; Provided the company information to the legal team for the abuse email; Received a case from SalesIQ about renting IP and after discussed with Jo, he will handle the following step with customer;",
     "inProgress": "",
     "blockers": "",
     "next": "",
@@ -247,7 +247,7 @@
     "metrics": [
       {
         "label": "CLOSED",
-        "value": "6"
+        "value": "8"
       }
     ]
   }
