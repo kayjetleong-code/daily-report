@@ -253,7 +253,7 @@
   },
   "2026-06-09": {
     "name": "Alex",
-    "done": "Ticket - 187844 Promoting their service; Ticket - 187834 - Promoting their service; ",
+    "done": "Ticket - 187844 Promoting their service; Ticket - 187834 - Promoting their service; Ticket - 187929 - Promoting their service; ",
     "inProgress": "Ticket - 187858 Update the PTR record;",
     "blockers": "Ticket - 187858 Waiting customer to reply;",
     "next": "Ticket - 187858 After customer confirm I will let NOC to perform the update;",
@@ -261,7 +261,7 @@
     "metrics": [
       {
         "label": "CLOSED",
-        "value": "2"
+        "value": "3"
       },
       {
         "label": "PENDING",
