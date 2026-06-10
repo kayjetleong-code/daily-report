@@ -271,7 +271,7 @@
   },
   "2026-06-10": {
     "name": "Alex",
-    "done": "Ticket - 188115 Promoting their services; Ticket - 188103 Promoting their services; Ticket - 188071 Promoting their services; Reply customer email in Zohomail; ",
+    "done": "Ticket - 188115 Promoting their services; Ticket - 188103 Promoting their services; Ticket - 188071 Promoting their services; Reply customer email in Zohomail; Ticket - 188155 Promoting their services; ",
     "inProgress": "",
     "blockers": "",
     "next": "",
@@ -279,7 +279,7 @@
     "metrics": [
       {
         "label": "CLOSED",
-        "value": "4"
+        "value": "2"
       }
     ]
   }
