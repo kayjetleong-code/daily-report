@@ -310,5 +310,23 @@
         "value": "10"
       }
     ]
+  },
+  "2026-06-15": {
+    "name": "Alex",
+    "done": "Ticket 189666 - Promoting their services; Ticket 189546 - Promoting their services; Ticket 189465 - Promoting their services; Ticket 189355 - Promoting their services; Ticket 189354 - Promoting their services; Ticket 189130 - Promoting their services; Ticket 189128 - Promoting their services; Ticket 189047 - Promoting their services; Ticket 189046 - Promoting their services; Ticket 189045 - Promoting their services; ",
+    "inProgress": "Ticket 189129 - Update the PTR record; ",
+    "blockers": "Ticket 189129 - Waiting NOC to update the PTR record; ",
+    "next": "Ticket 189129 - I will update customer once NOC complete the PTR record; ",
+    "tags": "#daily_report #cs #2026_06_15",
+    "metrics": [
+      {
+        "label": "CLOSED",
+        "value": "10"
+      },
+      {
+        "label": "PENDING",
+        "value": "1"
+      }
+    ]
   }
 }
