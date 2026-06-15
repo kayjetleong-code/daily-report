@@ -313,7 +313,7 @@
   },
   "2026-06-15": {
     "name": "Alex",
-    "done": "Ticket 189666 - Promoting their services; Ticket 189546 - Promoting their services; Ticket 189465 - Promoting their services; Ticket 189355 - Promoting their services; Ticket 189354 - Promoting their services; Ticket 189130 - Promoting their services; Ticket 189128 - Promoting their services; Ticket 189047 - Promoting their services; Ticket 189046 - Promoting their services; Ticket 189045 - Promoting their services; Ticket 189129 - Update the PTR record; Ticket 189680 - Promoting their services; Ticket 189679 - Promoting their services; Ticket 189681 - Promoting their services; Ticket 189682 - Looking for /24 subnet; Ticket 189684 - Promoting their services; Ticket 189683 - Promoting their services; ",
+    "done": "Ticket 189666 - Promoting their services; Ticket 189546 - Promoting their services; Ticket 189465 - Promoting their services; Ticket 189355 - Promoting their services; Ticket 189354 - Promoting their services; Ticket 189130 - Promoting their services; Ticket 189128 - Promoting their services; Ticket 189047 - Promoting their services; Ticket 189046 - Promoting their services; Ticket 189045 - Promoting their services; Ticket 189129 - Update the PTR record; Ticket 189680 - Promoting their services; Ticket 189679 - Promoting their services; Ticket 189681 - Promoting their services; Ticket 189682 - Looking for /24 subnet; Ticket 189684 - Promoting their services; Ticket 189683 - Promoting their services; Ticket 189706 - Update the PTR record;",
     "inProgress": "",
     "blockers": "",
     "next": "",
@@ -321,7 +321,7 @@
     "metrics": [
       {
         "label": "CLOSED",
-        "value": "17"
+        "value": "18"
       }
     ]
   }
