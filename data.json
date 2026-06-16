@@ -327,15 +327,19 @@
   },
   "2026-06-16": {
     "name": "Alex",
-    "done": "Ticket - 189907 Promoting their services; Ticket - 189906 Promoting their services; Ticket - 189905 Promoting their services; Ticket - 189798 Promoting their services; Ticket - 189797 Promoting their services; Ticket - 189796 Promoting their services; Ticket - 189926 Promoting their services; Ticket - 189925 Promoting their services; Ticket - 189915 Promoting their services; Ticket - 189931 Promoting their services; Ticket - 189930 Promoting their services; Ticket - 189928 Promoting their services; Ticket - 189927 Promoting their services; Ticket - 189937 Update the PTR reocrd;",
-    "inProgress": "",
-    "blockers": "",
-    "next": "",
+    "done": "Ticket - 189907 Promoting their services; Ticket - 189906 Promoting their services; Ticket - 189905 Promoting their services; Ticket - 189798 Promoting their services; Ticket - 189797 Promoting their services; Ticket - 189796 Promoting their services; Ticket - 189926 Promoting their services; Ticket - 189925 Promoting their services; Ticket - 189915 Promoting their services; Ticket - 189931 Promoting their services; Ticket - 189930 Promoting their services; Ticket - 189928 Promoting their services; Ticket - 189927 Promoting their services; ",
+    "inProgress": "Ticket - 189937 Update the PTR record;",
+    "blockers": "Ticket - 189937 Waiting NOC to update the PTR record;",
+    "next": "Ticket - 189937 After NOC update the record, I will let customer know; ",
     "tags": "#daily_report #cs #2026_06_16",
     "metrics": [
       {
         "label": "CLOSED",
-        "value": "15"
+        "value": "14"
+      },
+      {
+        "label": "PENDING",
+        "value": "1"
       }
     ]
   }
