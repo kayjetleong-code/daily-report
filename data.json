@@ -342,5 +342,19 @@
         "value": "1"
       }
     ]
+  },
+  "2026-06-17": {
+    "name": "Alex",
+    "done": "",
+    "inProgress": "Received a case from SalesIQ is about the set up the RPKI;",
+    "blockers": "Waiting NOC to take the next step; ",
+    "next": "After NOC created the RPKI, I will update the customer",
+    "tags": "#daily_report #cs #2026_06_17",
+    "metrics": [
+      {
+        "label": "PENDING",
+        "value": "1"
+      }
+    ]
   }
 }
