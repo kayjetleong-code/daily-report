@@ -345,7 +345,7 @@
   },
   "2026-06-17": {
     "name": "Alex",
-    "done": "Ticket - 190012 Promoting their services; Ticket - 190011 Promoting their services; Ticket - 189984 Promoting their services; Ticket - 189983 Promoting their services; Ticket - 189982 Promoting their services; Ticket - 189971 Promoting their services; ",
+    "done": "Ticket - 190012 Promoting their services; Ticket - 190011 Promoting their services; Ticket - 189984 Promoting their services; Ticket - 189983 Promoting their services; Ticket - 189982 Promoting their services; Ticket - 189971 Promoting their services; Ticket - 190047 Promoting their services; Ticket - 190046 Promoting their services; Ticket - 190041 Promoting their services; Ticket - 190040 Promoting their services; Ticket - 190028 Promoting their services; Ticket - 190015 Promoting their services; ",
     "inProgress": "Received a case from SalesIQ is about the set up the RPKI; Ticket - 189965 Looking for servers or VPS; ",
     "blockers": "Waiting NOC to take the next step; I have provided the price and now waiting customer to reply;",
     "next": "After NOC created the RPKI, I will update the customer; Waiting customer to reply; ",
@@ -357,7 +357,7 @@
       },
       {
         "label": "CLOSED",
-        "value": "6"
+        "value": "12"
       }
     ]
   }
