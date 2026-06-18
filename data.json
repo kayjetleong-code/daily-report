@@ -363,7 +363,7 @@
   },
   "2026-06-18": {
     "name": "Alex",
-    "done": "Ticket - 190081 Promoting their services; Ticket - 190079 Promoting their services; Ticket - 190068 Promoting their services; Ticket - 190067 Promoting their services; Ticket - 190066 Promoting their services; Ticket - 190206Promoting their services; ",
+    "done": "Ticket - 190081 Promoting their services; Ticket - 190079 Promoting their services; Ticket - 190068 Promoting their services; Ticket - 190067 Promoting their services; Ticket - 190066 Promoting their services; Ticket - 190206 Promoting their services; Help Steven to apply extension for his customer; Help JK to change the Sales PIC to Jo Cheung; Ticket - 190235 Promoting their services;",
     "inProgress": "",
     "blockers": "",
     "next": "",
@@ -371,7 +371,7 @@
     "metrics": [
       {
         "label": "CLOSED",
-        "value": "6"
+        "value": "9"
       }
     ]
   }
