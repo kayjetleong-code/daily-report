@@ -377,7 +377,7 @@
   },
   "2026-06-19": {
     "name": "Alex",
-    "done": "Ticket - 190612 Promoting their services; Ticket - 190611 Promoting their services; Ticket - 190610 Promoting their services; Ticket - 190609 Promoting their services; Ticket - 190608 Promoting their services; Ticket - 190606 Promoting their services; Received an email from Steven customer and replied to the customer question; Help KC to verify the sales member are in the list; ",
+    "done": "Ticket - 190612 Promoting their services; Ticket - 190611 Promoting their services; Ticket - 190610 Promoting their services; Ticket - 190609 Promoting their services; Ticket - 190608 Promoting their services; Ticket - 190606 Promoting their services; Received an email from Steven customer and replied to the customer question; Help KC to verify the sales member are in the list; Ticket - 190971 Promoting their services; Ticket - 190970 Promoting their services; Ticket - 190953 Promoting their services; Ticket - 190952 Promoting their services;",
     "inProgress": "",
     "blockers": "",
     "next": "",
@@ -385,7 +385,7 @@
     "metrics": [
       {
         "label": "CLOSED",
-        "value": "8"
+        "value": "12"
       }
     ]
   }
