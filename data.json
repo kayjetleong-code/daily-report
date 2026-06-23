@@ -405,7 +405,7 @@
   },
   "2026-06-23": {
     "name": "Alex",
-    "done": "Help Steven to apply extension for his customer contract; Provided company information to the legal team in the abuse emails; Ticket - 186840 Update PTR record; Ticket - 191602 Promoting their services; Ticket - 191616 Promoting their services;  ",
+    "done": "Help Steven to apply extension for his customer contract; Provided company information to the legal team in the abuse emails; Ticket - 186840 Update PTR record; Ticket - 191602 Promoting their services; Ticket - 191616 Promoting their services; Ticket - 191619 Promoting their services; Ticket - 191618 Promoting their services; Ticket - 191617 Promoting their services; ",
     "inProgress": "",
     "blockers": "",
     "next": "",
@@ -413,7 +413,7 @@
     "metrics": [
       {
         "label": "CLOSED",
-        "value": "5"
+        "value": "8"
       }
     ]
   }
