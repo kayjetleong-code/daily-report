@@ -447,15 +447,15 @@
   },
   "2026-06-26": {
     "name": "Alex",
-    "done": "Ticket - 191922 Promoting their services; Ticket - 191912 Promoting their services; Ticket - 191910 Promoting their services; Ticket - 191887 Promoting their services; Ticket - 191886 Promoting their services; Ticket - 191931 Promoting their services; Ticket - 191930 Promoting their services; ",
-    "inProgress": "Ticket - 191884 Update Route Object, I have send the guide to customer;",
-    "blockers": "Ticket - 191884 Waiting customer to verify and reply to my message;",
-    "next": "Ticket - 191884 If customer add the Route Object, I will send to NOC to perform the update; ",
+    "done": "Ticket - 191922 Promoting their services; Ticket - 191912 Promoting their services; Ticket - 191910 Promoting their services; Ticket - 191887 Promoting their services; Ticket - 191886 Promoting their services; Ticket - 191931 Promoting their services; Ticket - 191930 Promoting their services; Ticket - 191884 Update Route Object",
+    "inProgress": "Ticket - 191950 Update PTR record;",
+    "blockers": "Ticket - 191950 Have sent the request to NOC, Waiting NOC to update;",
+    "next": "Ticket - 191950 I will update customer after NOC update the PTR record",
     "tags": "#daily_report #cs #2026_06_26",
     "metrics": [
       {
         "label": "CLOSED",
-        "value": "7"
+        "value": "8"
       },
       {
         "label": "PENDING",
