@@ -447,7 +447,7 @@
   },
   "2026-06-26": {
     "name": "Alex",
-    "done": "Ticket - 191922 Promoting their services; Ticket - 191912 Promoting their services; Ticket - 191910 Promoting their services; Ticket - 191887 Promoting their services; Ticket - 191886 Promoting their services; ",
+    "done": "Ticket - 191922 Promoting their services; Ticket - 191912 Promoting their services; Ticket - 191910 Promoting their services; Ticket - 191887 Promoting their services; Ticket - 191886 Promoting their services; Ticket - 191931 Promoting their services; Ticket - 191930 Promoting their services; ",
     "inProgress": "Ticket - 191884 Update Route Object, I have send the guide to customer;",
     "blockers": "Ticket - 191884 Waiting customer to verify and reply to my message;",
     "next": "Ticket - 191884 If customer add the Route Object, I will send to NOC to perform the update; ",
@@ -455,7 +455,7 @@
     "metrics": [
       {
         "label": "CLOSED",
-        "value": "5"
+        "value": "7"
       },
       {
         "label": "PENDING",
