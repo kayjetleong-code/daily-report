@@ -463,8 +463,8 @@
     "name": "Alex",
     "done": "Ticket - 192338 Promoting their services; Ticket - 192305 Promoting their services; Ticket - 192304 Promoting their services; Ticket - 192303 Promoting their services; Ticket - 192302 Promoting their services; Ticket - 192301 Promoting their services; Ticket - 192300 Promoting their services; Ticket - 192294 Promoting their services; Ticket - 192293 Promoting their services; Ticket - 192254 Promoting their services; Ticket - 192253 Promoting their services; Ticket - 192252 Promoting their services; Ticket - 192162 Promoting their services; Ticket - 192161 Promoting their services; Ticket - 192160 Promoting their services; Ticket - 192159 Promoting their services; Ticket - 192010 Promoting their services; Ticket - 192009 Promoting their services; Ticket - 192391 Promoting their services;",
     "inProgress": "Ticket - 192295 Remove the ASN for the IP; Ticket - 192257 Service cancellation should not send this; ",
-    "blockers": "Ticket - 192295 Waiting NOC to perform it; Ticket - 192257 Waiting customer to confirm the contract ID; ",
-    "next": "Ticket - 192295 After NOC remove the ASN, I will update customer; Ticket - 192257 I will help customer to check their contract; ",
+    "blockers": "Ticket - 192295 Waiting customer to confirm it; Ticket - 192257 Waiting customer to confirm the contract ID; ",
+    "next": "Ticket - 192295 After customer confirm, I will close the ticket; Ticket - 192257 I will help customer to check their contract; ",
     "tags": "#daily_report #cs #2026_06_29",
     "metrics": [
       {
