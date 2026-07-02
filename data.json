@@ -507,7 +507,7 @@
   },
   "2026-07-02": {
     "name": "Alex",
-    "done": "Ticket - 192744 Promoting their services; Ticket - 192743 Promoting their services; ",
+    "done": "Ticket - 192744 Promoting their services; Ticket - 192743 Promoting their services; Ticket - 192750 Promoting their services; ",
     "inProgress": "Ticket - 192749 Update the Geofeed;",
     "blockers": "Ticket - 192749 Waiting NOC to update the Geofeed; ",
     "next": "Ticket - 192749 I will let customer to check after NOC complete the update; ",
@@ -515,7 +515,7 @@
     "metrics": [
       {
         "label": "CLOSED",
-        "value": "2"
+        "value": "3"
       },
       {
         "label": "PENDING",
