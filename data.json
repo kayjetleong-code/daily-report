@@ -507,7 +507,7 @@
   },
   "2026-07-02": {
     "name": "Alex",
-    "done": "Ticket - 192744 Promoting their services; Ticket - 192743 Promoting their services; Ticket - 192750 Promoting their services; Ticket - 192751 Promoting their services; Ticket - 192749 Update the Geofeed;",
+    "done": "Ticket - 192744 Promoting their services; Ticket - 192743 Promoting their services; Ticket - 192750 Promoting their services; Ticket - 192751 Promoting their services; Ticket - 192749 Update the Geofeed; Ticket - 192764 Promoting their services;",
     "inProgress": "",
     "blockers": "",
     "next": "",
@@ -515,7 +515,7 @@
     "metrics": [
       {
         "label": "CLOSED",
-        "value": "5"
+        "value": "6"
       }
     ]
   }
