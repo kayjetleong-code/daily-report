@@ -521,7 +521,7 @@
   },
   "2026-07-03": {
     "name": "Alex",
-    "done": "Ticket - 192817 Promoting their services; Ticket - 192801 Promoting their services; Ticket - 192800 Promoting their services; Ticket - 192771 Promoting their services; ",
+    "done": "Ticket - 192817 Promoting their services; Ticket - 192801 Promoting their services; Ticket - 192800 Promoting their services; Ticket - 192771 Promoting their services; Help Juan Manuel to apply extension for his customer contract (Contract ID: 7650); Help to review all the pending sales task and update the Sales Activity report;",
     "inProgress": "",
     "blockers": "",
     "next": "",
@@ -529,7 +529,7 @@
     "metrics": [
       {
         "label": "CLOSED",
-        "value": "4"
+        "value": "6"
       }
     ]
   }
