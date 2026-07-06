@@ -535,7 +535,7 @@
   },
   "2026-07-06": {
     "name": "Alex",
-    "done": "Ticket - 193153 Promoting their services; Ticket - 193102 Promoting their services; Ticket - 193101 Promoting their services; Ticket - 193100 Promoting their services; Ticket - 193099 Promoting their services; Ticket - 192968 Promoting their services; Ticket - 192898 Promoting their services; Ticket - 192867 Promoting their services; Ticket - 192864 Promoting their services; Ticket - 192863 Promoting their services; Ticket - 192861 Promoting their services; Ticket - 192859 Promoting their services; Ticket - 192858 Promoting their services; Ticket - 192852 Promoting their services; Ticket - 192851 Promoting their services; Ticket - 192850 Promoting their services; Ticket - 192841 Promoting their services; Ticket - 193185 Promoting their services; Ticket - 193186 Abuse email and i have provide the company information to the legal team; ",
+    "done": "Ticket - 193153 Promoting their services; Ticket - 193102 Promoting their services; Ticket - 193101 Promoting their services; Ticket - 193100 Promoting their services; Ticket - 193099 Promoting their services; Ticket - 192968 Promoting their services; Ticket - 192898 Promoting their services; Ticket - 192867 Promoting their services; Ticket - 192864 Promoting their services; Ticket - 192863 Promoting their services; Ticket - 192861 Promoting their services; Ticket - 192859 Promoting their services; Ticket - 192858 Promoting their services; Ticket - 192852 Promoting their services; Ticket - 192851 Promoting their services; Ticket - 192850 Promoting their services; Ticket - 192841 Promoting their services; Ticket - 193185 Promoting their services; Ticket - 193186 Abuse email and i have provide the company information to the legal team; Ticket - 193187 Have reply it in email;",
     "inProgress": "",
     "blockers": "",
     "next": "",
@@ -543,7 +543,7 @@
     "metrics": [
       {
         "label": "CLOSED",
-        "value": "19"
+        "value": "20"
       }
     ]
   }
