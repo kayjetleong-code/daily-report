@@ -619,7 +619,7 @@
   },
   "2026-07-14": {
     "name": "Alex",
-    "done": "Ticket - 193666 Promoting their services; Ticket - 193662 Promoting their services; Ticket - 193660 Promoting their services; Ticket - 193652 Promoting their services; Ticket - 193651 Promoting their services; Ticket - 193650 Promoting their services; Ticket - 193649 Promoting their services; Transferred Ticket - 193659 & 193648 to Legal Team and also provided the company information;",
+    "done": "Ticket - 193666 Promoting their services; Ticket - 193662 Promoting their services; Ticket - 193660 Promoting their services; Ticket - 193652 Promoting their services; Ticket - 193651 Promoting their services; Ticket - 193650 Promoting their services; Ticket - 193649 Promoting their services; Transferred Ticket - 193659 & 193648 to Legal Team and also provided the company information; Ticket - 193668 Promoting their services; ",
     "inProgress": "",
     "blockers": "",
     "next": "",
@@ -627,7 +627,7 @@
     "metrics": [
       {
         "label": "CLOSED",
-        "value": "7"
+        "value": "8"
       },
       {
         "label": "TRANSFERRED",
