@@ -739,7 +739,7 @@
   },
   "2026-07-24": {
     "name": "Alex",
-    "done": "Ticket - 195267 Promoting their services; Ticket - 195266 Promoting their services; Ticket - 195265 Promoting their services; Ticket - 195276 Promoting their services; Ticket - 195282 Promoting their services; Ticket - 195281 Promoting their services; Ticket - 195280 Promoting their services; Ticket - 195284 Promoting their services; ",
+    "done": "Ticket - 195267 Promoting their services; Ticket - 195266 Promoting their services; Ticket - 195265 Promoting their services; Ticket - 195276 Promoting their services; Ticket - 195282 Promoting their services; Ticket - 195281 Promoting their services; Ticket - 195280 Promoting their services; Ticket - 195284 Promoting their services; Ticket - 195305 Promoting their services; ",
     "inProgress": "",
     "blockers": "",
     "next": "",
@@ -747,7 +747,7 @@
     "metrics": [
       {
         "label": "CLOSED",
-        "value": "8"
+        "value": "9"
       }
     ]
   }
