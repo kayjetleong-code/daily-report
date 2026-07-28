@@ -767,7 +767,7 @@
   },
   "2026-07-28": {
     "name": "Alex",
-    "done": "Ticket - 195800 Promoting their services; Ticket - 195793 Promoting their services; Ticket - 195792 Promoting their services; Ticket - 195791 Promoting their services; Ticket - 195790 Promoting their services; Ticket - 195789 Promoting their services; Ticket - 195788 Promoting their services; Ticket - 186840 Request to update the PTR records; ",
+    "done": "Ticket - 195800 Promoting their services; Ticket - 195793 Promoting their services; Ticket - 195792 Promoting their services; Ticket - 195791 Promoting their services; Ticket - 195790 Promoting their services; Ticket - 195789 Promoting their services; Ticket - 195788 Promoting their services; Ticket - 186840 Request to update the PTR records; Ticket - 195808 Promoting their services; Ticket - 195807 Promoting their services; Ticket - 195806 Promoting their services; Ticket - 195805 Promoting their services; Ticket - 195804 Promoting their services; ",
     "inProgress": "",
     "blockers": "",
     "next": "",
@@ -775,7 +775,7 @@
     "metrics": [
       {
         "label": "CLOSED",
-        "value": "8"
+        "value": "13"
       }
     ]
   }
