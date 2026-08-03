@@ -823,7 +823,7 @@
   },
   "2026-08-03": {
     "name": "Alex",
-    "done": "Ticket - 196209 Promoting their services; Ticket - 196208 Promoting their services; Ticket - 196207 Email send from KC; Ticket - 196203 Promoting their services; Ticket - 196202 Promoting their services; Ticket - 196201 Promoting their services; Ticket - 196199 Promoting their services; Ticket - 196198 Promoting their services; Ticket - 196197 Promoting their services; Ticket - 196196 Promoting their services; Ticket - 196195 Promoting their services; Ticket - 196194 Promoting their services; Ticket - 196193 Promoting their services; Ticket - 196192 KC has replied through email; Ticket - 196191 Promoting their services; Ticket - 196211 Promoting their services; Ticket - 196210 Promoting their services; Ticket - 196214 Promoting their services; Ticket - 196213 Promoting their services; Ticket - 196212 Promoting their services; ",
+    "done": "Ticket - 196209 Promoting their services; Ticket - 196208 Promoting their services; Ticket - 196207 Email send from KC; Ticket - 196203 Promoting their services; Ticket - 196202 Promoting their services; Ticket - 196201 Promoting their services; Ticket - 196199 Promoting their services; Ticket - 196198 Promoting their services; Ticket - 196197 Promoting their services; Ticket - 196196 Promoting their services; Ticket - 196195 Promoting their services; Ticket - 196194 Promoting their services; Ticket - 196193 Promoting their services; Ticket - 196192 KC has replied through email; Ticket - 196191 Promoting their services; Ticket - 196211 Promoting their services; Ticket - 196210 Promoting their services; Ticket - 196214 Promoting their services; Ticket - 196213 Promoting their services; Ticket - 196212 Promoting their services; Ticket - 196215 Promoting their services; ",
     "inProgress": "",
     "blockers": "",
     "next": "",
@@ -831,7 +831,7 @@
     "metrics": [
       {
         "label": "CLOSED",
-        "value": "20"
+        "value": "21"
       }
     ]
   }
