@@ -837,7 +837,7 @@
   },
   "2026-08-04": {
     "name": "Alex",
-    "done": "Ticket - 196224 Promoting their services; Ticket - 196223 Promoting their services; Ticket - 196222 Promoting their services; Ticket - 196221 Promoting their services; ",
+    "done": "Ticket - 196224 Promoting their services; Ticket - 196223 Promoting their services; Ticket - 196222 Promoting their services; Ticket - 196221 Promoting their services; Ticket - 196227 Update the Geolocation of new subnet 45.194.41.0/24; Ticket - 196226 Promoting their services; Ticket - 196225 Promoting their services;",
     "inProgress": "",
     "blockers": "",
     "next": "",
@@ -845,7 +845,7 @@
     "metrics": [
       {
         "label": "CLOSED",
-        "value": "4"
+        "value": "7"
       }
     ]
   }
