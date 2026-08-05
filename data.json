@@ -851,7 +851,7 @@
   },
   "2026-08-05": {
     "name": "Alex",
-    "done": "Ticket - 196253 Promoting their services; Ticket - 196254 Promoting their services; Ticket - 196255 Promoting their services; Ticket - 196256 Promoting their services; Ticket - 196258 Promoting their services; Ticket - 196257 Promoting their services; Ticket - 196261 Promoting their services; Ticket - 196260 Promoting their services; ",
+    "done": "Ticket - 196253 Promoting their services; Ticket - 196254 Promoting their services; Ticket - 196255 Promoting their services; Ticket - 196256 Promoting their services; Ticket - 196258 Promoting their services; Ticket - 196257 Promoting their services; Ticket - 196261 Promoting their services; Ticket - 196260 Promoting their services; Ticket - 196263 Promoting their services; Ticket - 196264 Promoting their services; ",
     "inProgress": "Ticket - 196259 PTR record; ",
     "blockers": "Ticket - 196259 Waiting customer to provide more information; ",
     "next": "Ticket - 196259 After customer reply, i will provide the information to customer; ",
@@ -859,7 +859,7 @@
     "metrics": [
       {
         "label": "CLOSED",
-        "value": "10"
+        "value": "12"
       },
       {
         "label": "PENDING",
