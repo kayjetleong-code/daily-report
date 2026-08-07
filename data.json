@@ -880,5 +880,19 @@
         "value": "3"
       }
     ]
+  },
+  "2026-08-07": {
+    "name": "Alex",
+    "done": "Send the ticket ID and the link to the customer; ",
+    "inProgress": "",
+    "blockers": "",
+    "next": "",
+    "tags": "#daily_report #cs #2026_08_07",
+    "metrics": [
+      {
+        "label": "CLOSED",
+        "value": "1"
+      }
+    ]
   }
 }
