@@ -883,7 +883,7 @@
   },
   "2026-08-07": {
     "name": "Alex",
-    "done": "Send the ticket ID and the link to the customer; ",
+    "done": "Send the ticket ID and the link to the customer; Ticket - 196304 Promoting their services; Ticket - 196303 Promoting their services; ",
     "inProgress": "",
     "blockers": "",
     "next": "",
@@ -891,7 +891,7 @@
     "metrics": [
       {
         "label": "CLOSED",
-        "value": "1"
+        "value": "3"
       }
     ]
   }
