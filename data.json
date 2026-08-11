@@ -911,7 +911,7 @@
   },
   "2026-08-11": {
     "name": "Alex",
-    "done": "Ticket - 196345 Promoting their services; ",
+    "done": "Ticket - 196345 Promoting their services; Help customer to find their LOA and sent it to customer; ",
     "inProgress": "",
     "blockers": "",
     "next": "",
@@ -919,7 +919,7 @@
     "metrics": [
       {
         "label": "CLOSED",
-        "value": "1"
+        "value": "2"
       }
     ]
   }
