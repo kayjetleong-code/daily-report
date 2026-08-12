@@ -925,7 +925,7 @@
   },
   "2026-08-12": {
     "name": "Alex",
-    "done": "Help Steven to apply extension the Contract 6449; Help Steven to apply extension the Contract 3777; Help Steven to apply extension the Contract 1936; ",
+    "done": "Help Steven to apply extension the Contract 6449; Help Steven to apply extension the Contract 3777; Help Steven to apply extension the Contract 1936; Help Muhammad Ibrahim to change the Contract 8378 from invalid to expired;",
     "inProgress": "",
     "blockers": "",
     "next": "",
@@ -933,7 +933,7 @@
     "metrics": [
       {
         "label": "CLOSED",
-        "value": "3"
+        "value": "4"
       }
     ]
   }
