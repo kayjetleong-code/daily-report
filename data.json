@@ -925,7 +925,7 @@
   },
   "2026-08-12": {
     "name": "Alex",
-    "done": "Help Steven to apply extension the Contract 6449; Help Steven to apply extension the Contract 3777; Help Steven to apply extension the Contract 1936; Help Muhammad Ibrahim to change the Contract 8378 from invalid to expired; Ticket - 196385 Promoting their services; Ticket - 196384 Promoting their services; Ticket - 196383 Promoting their services; Ticket - 196382 Promoting their services; Ticket - 196381 Promoting their services; ",
+    "done": "Help Steven to apply extension the Contract 6449; Help Steven to apply extension the Contract 3777; Help Steven to apply extension the Contract 1936; Help Muhammad Ibrahim to change the Contract 8378 from invalid to expired; Ticket - 196385 Promoting their services; Ticket - 196384 Promoting their services; Ticket - 196383 Promoting their services; Ticket - 196382 Promoting their services; Ticket - 196381 Promoting their services; Ticket - 196387 Promoting their services; Ticket - 196386 Promoting their services; ",
     "inProgress": "",
     "blockers": "",
     "next": "",
@@ -933,7 +933,7 @@
     "metrics": [
       {
         "label": "CLOSED",
-        "value": "9"
+        "value": "11"
       }
     ]
   }
