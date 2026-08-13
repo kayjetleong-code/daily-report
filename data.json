@@ -939,7 +939,7 @@
   },
   "2026-08-13": {
     "name": "Alex",
-    "done": "Help Mario to change the Contract ID 7446 from invalid to expired;",
+    "done": "Help Mario to change the Contract ID 7446 from invalid to expired; Guide Muhammad Ibrahim on how to create LOA;",
     "inProgress": "",
     "blockers": "",
     "next": "",
@@ -947,7 +947,7 @@
     "metrics": [
       {
         "label": "CLOSED",
-        "value": "1"
+        "value": "2"
       }
     ]
   }
