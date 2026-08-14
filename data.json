@@ -955,8 +955,8 @@
     "name": "Alex",
     "done": "Ticket - 196414 Promoting their services; Ticket - 196413 Promoting their services; Ticket - 196412 Promoting their services; Ticket - 196411 Promoting their services; Ticket - 196410 Promoting their services; Ticket - 196408 Promoting their services; Ticket - 196407 Promoting their services; Ticket - 196406 Promoting their services; Ticket - 196404 Promoting their services; Ticket - 196403 Promoting their services; Ticket - 196402 Promoting their services; Ticket - 196418 Promoting their services; Ticket - 196417 Promoting their services; ",
     "inProgress": "Ticket - 196415 Update the RPKI; Ticket - 196418 Update the RPKI; ",
-    "blockers": "Ticket - 196415 & 196418 Waiting third party to update the RPKI; ",
-    "next": "Ticket - 196415 & 196418 I will update customer; ",
+    "blockers": "Ticket - 196415 & 196418 Waiting customer to confirm; ",
+    "next": "Ticket - 196415 & 196418 Waiting customer to confirm; ",
     "tags": "#daily_report #cs #2026_08_14",
     "metrics": [
       {
