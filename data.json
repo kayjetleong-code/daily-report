@@ -971,7 +971,7 @@
   },
   "2026-08-17": {
     "name": "Alex",
-    "done": "Change TOPAPPS TECH PTE LTD ownership to Jo Cheung; ",
+    "done": "Change TOPAPPS TECH PTE LTD ownership to Jo Cheung; Ticket - 196426 Promoting their services; Ticket - 196425 Promoting their services; Ticket - 196424 Promoting their services; Ticket - 196423 Promoting their services; ",
     "inProgress": "",
     "blockers": "",
     "next": "",
@@ -979,7 +979,7 @@
     "metrics": [
       {
         "label": "CLOSED",
-        "value": "1"
+        "value": "5"
       }
     ]
   }
