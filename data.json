@@ -968,5 +968,19 @@
         "value": "2"
       }
     ]
+  },
+  "2026-08-17": {
+    "name": "Alex",
+    "done": "Change TOPAPPS TECH PTE LTD ownership to Jo Cheung; ",
+    "inProgress": "",
+    "blockers": "",
+    "next": "",
+    "tags": "#daily_report #cs #2026_08_17",
+    "metrics": [
+      {
+        "label": "CLOSED",
+        "value": "1"
+      }
+    ]
   }
 }
