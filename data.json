@@ -999,15 +999,19 @@
   },
   "2026-08-19": {
     "name": "Alex",
-    "done": "Ticket - 196473 Promoting their services; Ticket - 196472 Promoting their services; Ticket - 196471 Promoting their services; Ticket - 196470 Promoting their services; Ticket - 196469 Replied in email; ",
-    "inProgress": "",
-    "blockers": "",
-    "next": "",
+    "done": "Ticket - 196473 Promoting their services; Ticket - 196472 Promoting their services; Ticket - 196471 Promoting their services; Ticket - 196470 Promoting their services; Ticket - 196469 Replied in email;",
+    "inProgress": "Ticket - 196467 Update the IP Geolocation; ",
+    "blockers": "Ticket - 196467 Waiting customer to confirm; ",
+    "next": "Ticket - 196467 After customer confirm, I will close the ticket; ",
     "tags": "#daily_report #cs #2026_08_19",
     "metrics": [
       {
         "label": "CLOSED",
         "value": "5"
+      },
+      {
+        "label": "PENDING",
+        "value": "1"
       }
     ]
   }
