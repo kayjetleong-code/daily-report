@@ -1017,7 +1017,7 @@
   },
   "2026-08-20": {
     "name": "Alex",
-    "done": "Ticket - 196501 Promoting their services; Ticket - 196500 Promoting their services; Ticket - 196499 Promoting their services; Ticket - 196498 Promoting their services; Ticket - 196497 Work reminder email; Ticket - 196496 Promoting their services; Ticket - 196495 Promoting their services; Ticket - 196494 Email sent from KC; Ticket - 196493 Email sent from Mike Ngo;",
+    "done": "Ticket - 196501 Promoting their services; Ticket - 196500 Promoting their services; Ticket - 196499 Promoting their services; Ticket - 196498 Promoting their services; Ticket - 196497 Work reminder email; Ticket - 196496 Promoting their services; Ticket - 196495 Promoting their services; Ticket - 196494 Email sent from KC; Ticket - 196493 Email sent from Mike Ngo; Ticket - 196502 Promoting their services; Ticket - 196503 Promoting their services;",
     "inProgress": "",
     "blockers": "",
     "next": "",
@@ -1025,7 +1025,7 @@
     "metrics": [
       {
         "label": "CLOSED",
-        "value": "9"
+        "value": "11"
       }
     ]
   }
