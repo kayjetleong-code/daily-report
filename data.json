@@ -1031,7 +1031,7 @@
   },
   "2026-08-21": {
     "name": "Alex",
-    "done": "Help Clarissa to transfer her customer under her name in system; Help Jo to chat who handling the case; ",
+    "done": "Help Clarissa to transfer her customer under her name in system; Help Jo to chat who handling the case; Ticket - 196517 Update the PTR record; ",
     "inProgress": "",
     "blockers": "",
     "next": "",
@@ -1039,7 +1039,7 @@
     "metrics": [
       {
         "label": "CLOSED",
-        "value": "2"
+        "value": "3"
       }
     ]
   }
