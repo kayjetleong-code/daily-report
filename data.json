@@ -1084,5 +1084,19 @@
         "value": "3"
       }
     ]
+  },
+  "2026-08-27": {
+    "name": "Alex",
+    "done": "",
+    "inProgress": "Ticket - 193996 Looking for server and IP; ",
+    "blockers": "Ticket - 193996 Waiting customer to register account",
+    "next": "Ticket - 193996 After customer register account, I'll guide customer;",
+    "tags": "#daily_report #cs #2026_08_27",
+    "metrics": [
+      {
+        "label": "PENDING",
+        "value": "1"
+      }
+    ]
   }
 }
