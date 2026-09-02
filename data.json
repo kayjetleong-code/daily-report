@@ -1143,7 +1143,7 @@
   },
   "2026-09-02": {
     "name": "Alex",
-    "done": "Help customer to remove the ASN; Help customer to update the IP netname and descrip; Ticket - 196679 Promoting their services; Ticket - 196680 Promoting their services; ",
+    "done": "Help customer to remove the ASN; Help customer to update the IP netname and descrip; Ticket - 196679 Promoting their services; Ticket - 196680 Promoting their services; Ticket - 196681 Promoting their services; ",
     "inProgress": "",
     "blockers": "",
     "next": "",
@@ -1151,7 +1151,7 @@
     "metrics": [
       {
         "label": "CLOSED",
-        "value": "4"
+        "value": "5"
       }
     ]
   }
