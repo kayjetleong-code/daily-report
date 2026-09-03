@@ -1157,7 +1157,7 @@
   },
   "2026-09-03": {
     "name": "Alex",
-    "done": "Ticket - 196692 Promoting their services; ",
+    "done": "Ticket - 196692 Promoting their services; Provide company information to the legal team; Provide company information to the legal team; ",
     "inProgress": "",
     "blockers": "",
     "next": "",
@@ -1165,7 +1165,7 @@
     "metrics": [
       {
         "label": "CLOSED",
-        "value": "1"
+        "value": "3"
       }
     ]
   }
