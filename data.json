@@ -1325,7 +1325,7 @@
   },
   "2026-09-21": {
     "name": "Alex",
-    "done": "Ticket - 196978 Promoting their services; Ticket - 196977 Promoting their services; Ticket - 196976 Promoting their services; Ticket - 196975 Promoting their services; Ticket - 196974 Promoting their services; Ticket - 196973 Promoting their services; Ticket - 196972 Promoting their services; Ticket - 196971 Promoting their services; Ticket - 196969 Promoting their services; Ticket - 196968 Promoting their services; Ticket - 196967 Promoting their services; Ticket - 196966 Promoting their services; Ticket - 196963 Promoting their services; Ticket - 196979 Promoting their services; ",
+    "done": "Ticket - 196978 Promoting their services; Ticket - 196977 Promoting their services; Ticket - 196976 Promoting their services; Ticket - 196975 Promoting their services; Ticket - 196974 Promoting their services; Ticket - 196973 Promoting their services; Ticket - 196972 Promoting their services; Ticket - 196971 Promoting their services; Ticket - 196969 Promoting their services; Ticket - 196968 Promoting their services; Ticket - 196967 Promoting their services; Ticket - 196966 Promoting their services; Ticket - 196963 Promoting their services; Ticket - 196979 Promoting their services; Ticket - 196980 Promoting their services; ",
     "inProgress": "",
     "blockers": "",
     "next": "",
@@ -1333,7 +1333,7 @@
     "metrics": [
       {
         "label": "CLOSED",
-        "value": "14"
+        "value": "15"
       }
     ]
   }
