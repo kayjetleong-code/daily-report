@@ -1392,5 +1392,23 @@
         "value": "5"
       }
     ]
+  },
+  "2026-09-28": {
+    "name": "Alex",
+    "done": "",
+    "inProgress": "Ticket - 270571 ROA; ",
+    "blockers": "Ticket - 270571 ROA Customer did not state clearly on the question; ",
+    "next": "Ticket - 270571 ROA Clarifying with customer; ",
+    "tags": "#daily_report #cs #2026_09_28",
+    "metrics": [
+      {
+        "label": "CLOSED",
+        "value": "0"
+      },
+      {
+        "label": "PENDING",
+        "value": "1"
+      }
+    ]
   }
 }
