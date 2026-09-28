@@ -1396,9 +1396,9 @@
   "2026-09-28": {
     "name": "Alex",
     "done": "Ticket - 270574 Promoting their services; Ticket - 270573 Promoting their services; Ticket - 270572 Promoting their services; Ticket - 270577 Promoting their services; Ticket - 270576 Promoting their services; Ticket - 270575 Promoting their services; Ticket - 270582 Promoting their services; Ticket - 270581Promoting their services; Ticket - 270580 Promoting their services; Ticket - 270579 Promoting their services;",
-    "inProgress": "Ticket - 270571 ROA; ",
-    "blockers": "Ticket - 270571 ROA Customer did not state clearly on the question; ",
-    "next": "Ticket - 270571 ROA Clarifying with customer; ",
+    "inProgress": "Ticket - 270571 ROA; Ticket - 270578 Update ROA",
+    "blockers": "Ticket - 270571 ROA Customer did not state clearly on the question; Ticket - 270578 Waiting customer to provide the details;",
+    "next": "Ticket - 270571 ROA Clarifying with customer; Ticket - 270578 Will send to NOC after customer confirm the details; ",
     "tags": "#daily_report #cs #2026_09_28",
     "metrics": [
       {
@@ -1407,7 +1407,7 @@
       },
       {
         "label": "PENDING",
-        "value": "1"
+        "value": "2"
       }
     ]
   }
