@@ -1540,14 +1540,18 @@
   "2026-10-12": {
     "name": "Alex",
     "done": "Ticket - 270993 Promoting their services; Ticket - 270992 Promoting their services; Ticket - 270991 Promoting their services; Ticket - 270987 Promoting their services; Ticket - 270986 Promoting their services; Ticket - 270958 Promoting their services; Ticket - 270957 Promoting their services; Ticket - 270956 Promoting their services; Ticket - 270955 Promoting their services; Ticket - 270954 Promoting their services; Ticket - 270934 Promoting their services; Ticket - 270933 Promoting their services; Ticket - 270932 Promoting their services; ",
-    "inProgress": "",
-    "blockers": "",
-    "next": "",
+    "inProgress": "Ticket - 270994 LOA Request; ",
+    "blockers": "Ticket - 270994 Waiting customer to add the route object;  ",
+    "next": "Ticket - 270994 After customer add the route object will send the LOA;  ",
     "tags": "#daily_report #cs #2026_10_12",
     "metrics": [
       {
         "label": "CLOSED",
         "value": "13"
+      },
+      {
+        "label": "PENDING",
+        "value": "1"
       }
     ]
   }
