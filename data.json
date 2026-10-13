@@ -1558,13 +1558,17 @@
   "2026-10-13": {
     "name": "Alex",
     "done": "Ticket - 271035 Promoting their services; Ticket - 271032 Promoting their services; ",
-    "inProgress": "",
-    "blockers": "",
-    "next": "",
+    "inProgress": "Ticket - 271034 Provided account manager name and wechat ID; Ticket - 271033 ASN to rent and suggestion; ",
+    "blockers": "Ticket - 271034 Waiting customer to reply; Ticket - 271033 Waiting customer to reply; ",
+    "next": "Ticket - 271034 I will close the ticket; Ticket - 271033 I will close the ticket; ",
     "tags": "#daily_report #cs #2026_10_13",
     "metrics": [
       {
         "label": "CLOSED",
+        "value": "2"
+      },
+      {
+        "label": "PENDING",
         "value": "2"
       }
     ]
