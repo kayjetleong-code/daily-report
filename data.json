@@ -1617,19 +1617,15 @@
   },
   "2026-10-19": {
     "name": "Alex",
-    "done": "Ticket - 271175 Promoting their services; Ticket - 271174 Promoting their services; Ticket - 271170 Promoting their services; Ticket - 271169 Promoting their services; Ticket - 271145 Promoting their services; Ticket - 271140 Promoting their services; Ticket - 271138 Promoting their services; ",
-    "inProgress": "Ticket - 271139 Update the PTR record;",
-    "blockers": "Ticket - 271139 Waiting NOC to update;",
-    "next": "Ticket - 271139 After NOC update, i will let customer to check; ",
+    "done": "Ticket - 271175 Promoting their services; Ticket - 271174 Promoting their services; Ticket - 271170 Promoting their services; Ticket - 271169 Promoting their services; Ticket - 271145 Promoting their services; Ticket - 271140 Promoting their services; Ticket - 271138 Promoting their services; Ticket - 271139 Update the PTR record;",
+    "inProgress": "",
+    "blockers": "",
+    "next": "",
     "tags": "#daily_report #cs #2026_10_19",
     "metrics": [
       {
-        "label": "PENDING",
-        "value": "1"
-      },
-      {
         "label": "CLOSED",
-        "value": "7"
+        "value": "8"
       }
     ]
   }
