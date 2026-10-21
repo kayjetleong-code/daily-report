@@ -1645,7 +1645,7 @@
   },
   "2026-10-21": {
     "name": "Alex",
-    "done": "Ticket - 271373 Promoting their services; Ticket - 271375 Promoting their services; Ticket - 271387 Promoting their services; Ticket - 271376 Promoting their services; Ticket - 271388 Promoting their services; Ticket - 271389 Promoting their services; Ticket - 271390 Promoting their services; ",
+    "done": "Ticket - 271373 Promoting their services; Ticket - 271375 Promoting their services; Ticket - 271387 Promoting their services; Ticket - 271376 Promoting their services; Ticket - 271388 Promoting their services; Ticket - 271389 Promoting their services; ",
     "inProgress": "Ticket - 271377 Verifying with Umer; ",
     "blockers": "Ticket - 271377 Waiting Umer to reply; ",
     "next": "Ticket - 271377 After confirm the issue will reply to customer; ",
@@ -1653,7 +1653,7 @@
     "metrics": [
       {
         "label": "CLOSED",
-        "value": "7"
+        "value": "6"
       },
       {
         "label": "PENDING",
