@@ -1705,7 +1705,7 @@
   },
   "2026-10-27": {
     "name": "Alex",
-    "done": "Ticket - 271584 Promoting their services; Ticket - 271585 Promoting their services; Ticket - 271586 Promoting their services; ",
+    "done": "Ticket - 271584 Promoting their services; Ticket - 271585 Promoting their services; Ticket - 271586 Promoting their services; Ticket - 271595 Promoting their services; Ticket - 271591 Promoting their services; Ticket - 271590 Promoting their services; Ticket - 271589 Promoting their services; ",
     "inProgress": "",
     "blockers": "",
     "next": "",
@@ -1713,7 +1713,7 @@
     "metrics": [
       {
         "label": "CLOSED",
-        "value": "3"
+        "value": "7"
       }
     ]
   }
