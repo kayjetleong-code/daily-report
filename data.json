@@ -1747,7 +1747,7 @@
   },
   "2026-10-30": {
     "name": "Alex",
-    "done": "Ticket - 272015 Request for update PTR; ",
+    "done": "Ticket - 272015 Request for update PTR; Ticket - 272074 Promoting their services; Ticket - 272064 Promoting their services; ",
     "inProgress": "",
     "blockers": "",
     "next": "",
@@ -1756,6 +1756,10 @@
       {
         "label": "CLOSED",
         "value": "1"
+      },
+      {
+        "label": "JUNK",
+        "value": "2"
       }
     ]
   }
