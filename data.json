@@ -1765,7 +1765,7 @@
   },
   "2026-11-02": {
     "name": "Alex",
-    "done": "Ticket - 273683 Promoting their services; Ticket - 273678 Promoting their services; Ticket - 273655 Promoting their services; Ticket - 273626 Promoting their services; Ticket - 273606 Promoting their services; Ticket - 273598 Promoting their services; Ticket - 273569 Promoting their services; Ticket - 273474 Promoting their services; Ticket - 273397 Promoting their services; Ticket - 273248 Promoting their services; Ticket - 273067 Promoting their services; Ticket - 273066 Promoting their services; Ticket - 273061 Promoting their services; Ticket - 272979 Promoting their services; Ticket - 272973 Promoting their services; Ticket - 272970 Promoting their services; Ticket - 272953 Promoting their services; Ticket - 272952 Promoting their services; Ticket - 272950 Promoting their services; Ticket - 272944 Promoting their services; Ticket - 272941 Promoting their services; Ticket - 272825 Promoting their services; Ticket - 272804 Promoting their services; Ticket - 272766 Promoting their services; Ticket - 272710 Promoting their services; Ticket - 272656 Promoting their services; Ticket - 272647 Promoting their services; Ticket - 272646 Promoting their services; Ticket - 273878 Promoting their services; Ticket - 272015 Request for PTR; Ticket - 271377 Error in RPKI",
+    "done": "Ticket - 273683 Promoting their services; Ticket - 273678 Promoting their services; Ticket - 273655 Promoting their services; Ticket - 273626 Promoting their services; Ticket - 273606 Promoting their services; Ticket - 273598 Promoting their services; Ticket - 273569 Promoting their services; Ticket - 273474 Promoting their services; Ticket - 273397 Promoting their services; Ticket - 273248 Promoting their services; Ticket - 273067 Promoting their services; Ticket - 273066 Promoting their services; Ticket - 273061 Promoting their services; Ticket - 272979 Promoting their services; Ticket - 272973 Promoting their services; Ticket - 272970 Promoting their services; Ticket - 272953 Promoting their services; Ticket - 272952 Promoting their services; Ticket - 272950 Promoting their services; Ticket - 272944 Promoting their services; Ticket - 272941 Promoting their services; Ticket - 272825 Promoting their services; Ticket - 272804 Promoting their services; Ticket - 272766 Promoting their services; Ticket - 272710 Promoting their services; Ticket - 272656 Promoting their services; Ticket - 272647 Promoting their services; Ticket - 272646 Promoting their services; Ticket - 273878 Promoting their services; Ticket - 272015 Request for PTR; Ticket - 271377 Error in RPKI; Ticket - 273912 Promoting their services; ",
     "inProgress": "",
     "blockers": "",
     "next": "",
@@ -1773,7 +1773,7 @@
     "metrics": [
       {
         "label": "JUNK",
-        "value": "29"
+        "value": "30"
       },
       {
         "label": "CLOSED",
