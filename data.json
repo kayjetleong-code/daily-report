@@ -1783,10 +1783,10 @@
   },
   "2026-11-03": {
     "name": "Alex",
-    "done": "Ticket - 274474 Promoting their services; Ticket - 274483 Promoting their services; Ticket - 274553 Promoting their services; Ticket - 274548 Promoting their services; Ticket - 274584 Promoting their services; Ticket - 274578 Promoting their services; Ticket - 274612 Promoting their services; Ticket - 274636 Promoting their services; Ticket - 274634 Promoting their services; Ticket - 274629 Update PTR record; ",
-    "inProgress": "",
-    "blockers": "",
-    "next": "",
+    "done": "Ticket - 274474 Promoting their services; Ticket - 274483 Promoting their services; Ticket - 274553 Promoting their services; Ticket - 274548 Promoting their services; Ticket - 274584 Promoting their services; Ticket - 274578 Promoting their services; Ticket - 274612 Promoting their services; Ticket - 274636 Promoting their services; Ticket - 274634 Promoting their services; ",
+    "inProgress": "Ticket - 274629 Update PTR record; ",
+    "blockers": "Ticket - 274629 Waiting customer to reply; ",
+    "next": "Ticket - 274629 Waiting customer to reply;",
     "tags": "#daily_report #cs #2026_11_03",
     "metrics": [
       {
@@ -1794,7 +1794,7 @@
         "value": "9"
       },
       {
-        "label": "CLOSED",
+        "label": "PENDING",
         "value": "1"
       }
     ]
