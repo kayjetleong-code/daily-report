@@ -1816,13 +1816,17 @@
   "2026-11-05": {
     "name": "Alex",
     "done": "Ticket - 275648 Promoting their services;",
-    "inProgress": "",
-    "blockers": "",
+    "inProgress": "Ticket - 275645 Outstanding Larus Renewal Invoices Digicel PNG; ",
+    "blockers": "Ticket - 275645 Waiting customer provide the payment slip; ",
     "next": "",
     "tags": "#daily_report #cs #2026_11_05",
     "metrics": [
       {
         "label": "JUNK",
+        "value": "1"
+      },
+      {
+        "label": "PENDING",
         "value": "1"
       }
     ]
