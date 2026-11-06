@@ -1833,7 +1833,7 @@
   },
   "2026-11-06": {
     "name": "Alex",
-    "done": "Ticket - 276139 Promoting their services; Ticket - 276137 Promoting their services; Ticket - 276133 Promoting their services; Ticket - 276120 Promoting their services; Ticket - 275665 Promoting their services; Ticket - 275663 Promoting their services; Ticket - 275570 Promoting their services; Ticket - 275569 Promoting their services; Ticket - 275527 Promoting their services; Ticket - 275461 Promoting their services; Ticket - 275422 Promoting their services; Ticket - 275135 Promoting their services; Ticket - 274992 Promoting their services; Ticket - 274991 Promoting their services; Ticket - 274702 Promoting their services; Ticket - 274698 Promoting their services; Ticket - 274298 Promoting their services; Ticket - 273615 Promoting their services; Ticket - 273604 Promoting their services; Ticket - 276217 Promoting their services; Ticket - 276223 Promoting their services; Ticket - 276229 Promoting their services; Ticket - 276235 Promoting their services; ",
+    "done": "Ticket - 276139 Promoting their services; Ticket - 276137 Promoting their services; Ticket - 276133 Promoting their services; Ticket - 276120 Promoting their services; Ticket - 275665 Promoting their services; Ticket - 275663 Promoting their services; Ticket - 275570 Promoting their services; Ticket - 275569 Promoting their services; Ticket - 275527 Promoting their services; Ticket - 275461 Promoting their services; Ticket - 275422 Promoting their services; Ticket - 275135 Promoting their services; Ticket - 274992 Promoting their services; Ticket - 274991 Promoting their services; Ticket - 274702 Promoting their services; Ticket - 274698 Promoting their services; Ticket - 274298 Promoting their services; Ticket - 273615 Promoting their services; Ticket - 273604 Promoting their services; Ticket - 276217 Promoting their services; Ticket - 276223 Promoting their services; Ticket - 276229 Promoting their services; Ticket - 276235 Promoting their services; Ticket - 276237 Promoting their services; ",
     "inProgress": "",
     "blockers": "",
     "next": "",
@@ -1841,7 +1841,7 @@
     "metrics": [
       {
         "label": "JUNK",
-        "value": "23"
+        "value": "24"
       }
     ]
   }
