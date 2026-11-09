@@ -1847,7 +1847,7 @@
   },
   "2026-11-09": {
     "name": "Alex",
-    "done": "Ticket - 276642 Promoting their services; Ticket - 276640 Promoting their services; Ticket - 276637 Promoting their services; Ticket - 276636 Promoting their services; Ticket - 276635 Promoting their services; Ticket - 276632 Promoting their services; Ticket - 276631 Promoting their services; Ticket - 276630 Promoting their services; Ticket - 276629 Promoting their services; Ticket - 276628 Promoting their services; Ticket - 276626 Promoting their services; Ticket - 276625 Promoting their services; Ticket - 276624 Promoting their services; Ticket - 276623 Promoting their services; Ticket - 276622 Promoting their services; Ticket - 276610 Promoting their services; Ticket - 276608 Promoting their services; Ticket - 276578 Promoting their services; Ticket - 276541 Promoting their services; Ticket - 276531 Promoting their services; Ticket - 276527 Promoting their services; Ticket - 276525 Promoting their services; Ticket - 276524 Promoting their services; Ticket - 276522 Promoting their services; Ticket - 276490 Promoting their services; Ticket - 276487 Promoting their services; Ticket - 276485 Promoting their services; Ticket - 276465 Promoting their services; Ticket - 276449 Promoting their services; Ticket - 276448 Promoting their services; Ticket - 276442 Promoting their services; Ticket - 276440 Promoting their services; Ticket - 276427 Promoting their services; Ticket - 276423 Promoting their services; Ticket - 276394 Promoting their services; Ticket- 276643 Promoting their services; ",
+    "done": "Ticket - 276642 Promoting their services; Ticket - 276640 Promoting their services; Ticket - 276637 Promoting their services; Ticket - 276636 Promoting their services; Ticket - 276635 Promoting their services; Ticket - 276632 Promoting their services; Ticket - 276631 Promoting their services; Ticket - 276630 Promoting their services; Ticket - 276629 Promoting their services; Ticket - 276628 Promoting their services; Ticket - 276626 Promoting their services; Ticket - 276625 Promoting their services; Ticket - 276624 Promoting their services; Ticket - 276623 Promoting their services; Ticket - 276622 Promoting their services; Ticket - 276610 Promoting their services; Ticket - 276608 Promoting their services; Ticket - 276578 Promoting their services; Ticket - 276541 Promoting their services; Ticket - 276531 Promoting their services; Ticket - 276527 Promoting their services; Ticket - 276525 Promoting their services; Ticket - 276524 Promoting their services; Ticket - 276522 Promoting their services; Ticket - 276490 Promoting their services; Ticket - 276487 Promoting their services; Ticket - 276485 Promoting their services; Ticket - 276465 Promoting their services; Ticket - 276449 Promoting their services; Ticket - 276448 Promoting their services; Ticket - 276442 Promoting their services; Ticket - 276440 Promoting their services; Ticket - 276427 Promoting their services; Ticket - 276423 Promoting their services; Ticket - 276394 Promoting their services; Ticket- 276643 Promoting their services; Ticket- 276662 Promoting their services; ",
     "inProgress": "Ticket - 276505 Renew contract;",
     "blockers": "Ticket - 276505 Waiting customer to reply; ",
     "next": "",
@@ -1855,7 +1855,7 @@
     "metrics": [
       {
         "label": "JUNK",
-        "value": "36"
+        "value": "37"
       },
       {
         "label": "PENDING",
