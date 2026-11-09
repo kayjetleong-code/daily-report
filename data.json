@@ -1848,14 +1848,18 @@
   "2026-11-09": {
     "name": "Alex",
     "done": "Ticket - 276642 Promoting their services; Ticket - 276640 Promoting their services; Ticket - 276637 Promoting their services; Ticket - 276636 Promoting their services; Ticket - 276635 Promoting their services; Ticket - 276632 Promoting their services; Ticket - 276631 Promoting their services; Ticket - 276630 Promoting their services; Ticket - 276629 Promoting their services; Ticket - 276628 Promoting their services; Ticket - 276626 Promoting their services; Ticket - 276625 Promoting their services; Ticket - 276624 Promoting their services; Ticket - 276623 Promoting their services; Ticket - 276622 Promoting their services; Ticket - 276610 Promoting their services; Ticket - 276608 Promoting their services; Ticket - 276578 Promoting their services; Ticket - 276541 Promoting their services; Ticket - 276531 Promoting their services; ",
-    "inProgress": "",
-    "blockers": "",
+    "inProgress": "Ticket - 276505 Renew contract;",
+    "blockers": "Ticket - 276505 Waiting customer to reply; ",
     "next": "",
     "tags": "#daily_report #cs #2026_11_09",
     "metrics": [
       {
         "label": "JUNK",
         "value": "20"
+      },
+      {
+        "label": "PENDING",
+        "value": "1"
       }
     ]
   }
