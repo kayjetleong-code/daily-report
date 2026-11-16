@@ -1922,14 +1922,18 @@
   "2026-11-16": {
     "name": "Alex",
     "done": "Ticket - 276881 Promoting their services; Ticket - 276880 Promoting their services; Ticket - 276879 Promoting their services; Ticket - 276878 Promoting their services; Ticket - 276876 Promoting their services; Ticket - 276875 Promoting their services; Ticket - 276874 Promoting their services; Ticket - 276873 Promoting their services; Ticket - 276872 Promoting their services; Ticket - 276866 Promoting their services; Ticket - 276865 Promoting their services; Ticket - 276864 Promoting their services; Ticket - 276863 Promoting their services; Ticket - 276862 Promoting their services; Ticket - 276871 Correct RPKI; ",
-    "inProgress": "",
-    "blockers": "",
+    "inProgress": "Ticket - 276886 Update geolocation; ",
+    "blockers": "Ticket - 276886 Waiting customer reply; ",
     "next": "",
     "tags": "#daily_report #cs #2026_11_16",
     "metrics": [
       {
         "label": "JUNK",
         "value": "15"
+      },
+      {
+        "label": "PENDING",
+        "value": "1"
       }
     ]
   }
