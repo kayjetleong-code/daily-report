@@ -1936,5 +1936,19 @@
         "value": "1"
       }
     ]
+  },
+  "2026-11-17": {
+    "name": "Alex",
+    "done": "Ticket - 276929 Promoting their services; Ticket - 276919 Promoting their services; ",
+    "inProgress": "",
+    "blockers": "",
+    "next": "",
+    "tags": "#daily_report #cs #2026_11_17",
+    "metrics": [
+      {
+        "label": "JUNK",
+        "value": "2"
+      }
+    ]
   }
 }
