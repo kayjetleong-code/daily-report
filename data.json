@@ -1967,7 +1967,7 @@
   },
   "2026-11-19": {
     "name": "Alex",
-    "done": "Ticket - 278326 Spam email; Ticket - 277408 Promoting their services; Ticket - 277312 Promoting their services; Ticket - 278473 Promoting their services; Ticket - 278474 Promoting their services; Ticket - 278475 Promoting their services; Ticket - 278508 Promoting their services; Ticket - 278548 Juan Acosta handling in email; Ticket - 278918 Promoting their services; Ticket - 278971 Sefie Hospitasari handling in email; Ticket - 279180 Promoting their services; Ticket - 279348 Promoting their services; ",
+    "done": "Ticket - 278326 Spam email; Ticket - 277408 Promoting their services; Ticket - 277312 Promoting their services; Ticket - 278473 Promoting their services; Ticket - 278474 Promoting their services; Ticket - 278475 Promoting their services; Ticket - 278508 Promoting their services; Ticket - 278548 Juan Acosta handling in email; Ticket - 278918 Promoting their services; Ticket - 278971 Sefie Hospitasari handling in email; Ticket - 279180 Promoting their services; Ticket - 279348 Promoting their services; Ticket - 279672 Promoting their services; Ticket - 279601 Promoting their services; ",
     "inProgress": "",
     "blockers": "",
     "next": "",
@@ -1975,7 +1975,7 @@
     "metrics": [
       {
         "label": "JUNK",
-        "value": "12"
+        "value": "14"
       }
     ]
   }
