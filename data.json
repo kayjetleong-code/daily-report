@@ -1981,7 +1981,7 @@
   },
   "2026-11-20": {
     "name": "Alex",
-    "done": "Ticket - 283854 Promoting their services; ",
+    "done": "Ticket - 283854 Promoting their services; Ticket - 285089 Promoting their services; Ticket - 285088 Promoting their services; Ticket - 284962 Promoting their services; ",
     "inProgress": "Ticket - 284133 Delete account; ",
     "blockers": "Ticket - 284133 Waiting JK to delete it; ",
     "next": "Ticket - 284133 I will update customer once the delete complete; ",
@@ -1989,7 +1989,7 @@
     "metrics": [
       {
         "label": "JUNK",
-        "value": "1"
+        "value": "4"
       },
       {
         "label": "PENDING",
