@@ -2017,15 +2017,15 @@
   },
   "2026-11-24": {
     "name": "Alex",
-    "done": "Ticket - 285949 Promoting their services; Ticket - 285963 Promoting their services; Ticket - 285978 Promoting their services; Ticket - 285975 Promoting their services; Ticket - 285973 Promoting their services; ",
+    "done": "Ticket - 285949 Promoting their services; Ticket - 285963 Promoting their services; Ticket - 285978 Promoting their services; Ticket - 285975 Promoting their services; Ticket - 285973 Promoting their services; Ticket - 286003 Promoting their services; ",
     "inProgress": "Ticket - 285910 Change customer organization; ",
-    "blockers": "Ticket - 285910 Waiting legal team to confirm; ",
+    "blockers": "Ticket - 285910 Waiting customer to send document; ",
     "next": "",
     "tags": "#daily_report #cs #2026_11_24",
     "metrics": [
       {
         "label": "JUNK",
-        "value": "5"
+        "value": "6"
       },
       {
         "label": "PENDING",
