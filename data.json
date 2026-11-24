@@ -2017,7 +2017,7 @@
   },
   "2026-11-24": {
     "name": "Alex",
-    "done": "Ticket - 285949 Promoting their services; Ticket - 285963 Promoting their services; ",
+    "done": "Ticket - 285949 Promoting their services; Ticket - 285963 Promoting their services; Ticket - 285978 Promoting their services; Ticket - 285975 Promoting their services; Ticket - 285973 Promoting their services; ",
     "inProgress": "Ticket - 285910 Change customer organization; ",
     "blockers": "Ticket - 285910 Waiting legal team to confirm; ",
     "next": "",
@@ -2025,7 +2025,7 @@
     "metrics": [
       {
         "label": "JUNK",
-        "value": "2"
+        "value": "5"
       },
       {
         "label": "PENDING",
