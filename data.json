@@ -2035,7 +2035,7 @@
   },
   "2026-11-25": {
     "name": "Alex",
-    "done": "Ticket - 286115 Promoting their services; Ticket - 286130 Transferred to the legal team; Ticket - 286139 Promoting their services;",
+    "done": "Ticket - 286115 Promoting their services; Ticket - 286130 Transferred to the legal team; Ticket - 286139 Promoting their services; Ticket - 286141 Promoting their services; Ticket - 286140 Promoting their services; ",
     "inProgress": "",
     "blockers": "",
     "next": "",
@@ -2043,7 +2043,7 @@
     "metrics": [
       {
         "label": "JUNK",
-        "value": "2"
+        "value": "4"
       },
       {
         "label": "TRANSFERRED",
