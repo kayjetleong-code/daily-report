@@ -2053,7 +2053,7 @@
   },
   "2026-11-26": {
     "name": "Alex",
-    "done": "Ticket - 286258 Spam email; Ticket - 286257 Spam email; ",
+    "done": "Ticket - 286258 Spam email; Ticket - 286257 Spam email; Ticket - 286183 Abuse report; ",
     "inProgress": "",
     "blockers": "",
     "next": "",
@@ -2062,6 +2062,10 @@
       {
         "label": "JUNK",
         "value": "2"
+      },
+      {
+        "label": "CLOSED",
+        "value": "1"
       }
     ]
   }
