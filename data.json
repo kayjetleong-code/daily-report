@@ -2071,7 +2071,7 @@
   },
   "2026-11-27": {
     "name": "Alex",
-    "done": "Ticket - 286486 Promoting their services; Ticket - 286511 Promoting their services; Ticket - 286515 Promoting their services; ",
+    "done": "Ticket - 286486 Promoting their services; Ticket - 286511 Promoting their services; Ticket - 286515 Promoting their services; Ticket - 286518 Promoting their services; Ticket - 286517 Promoting their services; ",
     "inProgress": "",
     "blockers": "",
     "next": "",
@@ -2079,7 +2079,7 @@
     "metrics": [
       {
         "label": "JUNK",
-        "value": "3"
+        "value": "5"
       }
     ]
   }
