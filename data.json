@@ -2071,7 +2071,7 @@
   },
   "2026-11-27": {
     "name": "Alex",
-    "done": "Ticket - 286486 Promoting their services; Ticket - 286511 Promoting their services; Ticket - 286515 Promoting their services; Ticket - 286518 Promoting their services; Ticket - 286517 Promoting their services; Ticket - 286521 Promoting their services; ",
+    "done": "Ticket - 286486 Promoting their services; Ticket - 286511 Promoting their services; Ticket - 286515 Promoting their services; Ticket - 286518 Promoting their services; Ticket - 286517 Promoting their services; Ticket - 286521 Promoting their services; Ticket - 286524 Our colleague reply to Stripe email; ",
     "inProgress": "",
     "blockers": "",
     "next": "",
@@ -2080,6 +2080,10 @@
       {
         "label": "JUNK",
         "value": "6"
+      },
+      {
+        "label": "CLOSED",
+        "value": "1"
       }
     ]
   }
